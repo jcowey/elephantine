@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="http://elephantine.smb.museum/tei/css/tei_oxygen_ERC_elephantine.css"?>
+<!DOCTYPE TEI SYSTEM "http://elephantine.smb.museum/tei/css/tei_erc_elephantine.dtd">
+<TEI xml:id="elephantine_erc_db_100018" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pap. Cairo EM CG 50163 (= Pap. Berlin P. 13527)</title>
+            <editor>Verena M. Lepper</editor>
+            <respStmt>
+               <resp>Artefact metadata</resp>
+               <persName>Jan Moje</persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI encoding</resp>
+               <persName ref="http://www.danielwerning.de">Daniel A. Werning</persName>
+               <persName ref="http://www.sandro-schwarz.com">Sandro Schwarz</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="http://d-nb.info/gnd/1090539932">Ägyptisches Museum und Papyrussammlung, Berlin</orgName>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date when="08.02.2018" />
+            <idno>v2.1</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Licence for this TEI document: Creative Commons, Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Egypt</country>
+                  <settlement>Cairo</settlement>
+                  <institution>Cairo, Egyptian Museum</institution>
+                  <repository>Cairo, Egyptian Museum</repository>
+                  <collection>Catalogue général</collection>
+                  <idno>Pap. Cairo EM CG 50163 (= Pap. Berlin P. 13527)</idno>
+                  <msName>Pap. Cairo EM CG 50163 (= Pap. Berlin P. 13527)</msName>
+                  <altIdentifier>
+                     <idno>Berlin P. 527</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>Berlin P. 13527</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Royal oath of Pinyris, son of Estphenis. He swears that he owned a piece of land, which was sold in execution sales due to his insolvency. Doubts about the ownership should be dispelled by the oath.</summary>
+                  <msItem defective="false" xml:id="RDB_TXT100018">
+                     <locus>recto</locus>
+                     <title type="original"> </title>
+                     <title type="modern">royal oath concerning ownership of land</title>
+                     <textLang mainLang="egy-x-demp-Egyd-x-Egydmd" />
+                     <note />
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc xml:id="RDB_TR100018">
+                        <support>
+                           <dimensions>
+                              <height max="330" unit="mm" />
+                              <width max="75" unit="mm" />
+                           </dimensions>
+                           <material style="color:papyrus">papyrus<certainty assertedValue="material" cert="high" locus="value" />
+                           </material>
+                           <objectType>papyrus</objectType>
+                           <origDate> </origDate>
+                        </support>
+                        <condition>
+                           <list>
+                              <item>object's condition: <measure>complete</measure>
+                                 <desc>Left and lower right edge damaged. Breakout in the lower left section.</desc>
+                              </item>
+                              <item>text's condition: <measure>complete</measure>
+                                 <desc>All line beginnings and endings damaged. Upper lines faded.</desc>
+                              </item>
+                           </list>
+                           <join type="Joints" />
+                           <note>[unknown]</note>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="R: 1; V: 0" writtenLines="R: 27; V: 0">
+                           <height max="300" scope="columns" unit="mm" />
+                           <width max="75" scope="rows" unit="mm" />
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribeRef="#scribe">Klare mitteldemotische Geschäftsschrift.</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote medium="carbon ink monochrome black" />
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote />
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>
+                        <date notAfter="-222" notBefore="-223"> </date>
+                     </origDate>
+                     <origPlace cert="high">
+                        <country ref="elephantine_erc_db_places.tei.xml#c1">Egypt</country>
+                        <region ref="elephantine_erc_db_places.tei.xml#r1">Upper Egypt, 1st nome</region>
+                        <settlement ref="elephantine_erc_db_places.tei.xml#s3">Elephantine</settlement>
+                     </origPlace>
+                  </origin>
+                  <provenance cert="high" type="archaeological excavation">
+                     <date notAfter="1906" notBefore="1906" />
+                     <affiliation>official correspondence Praktor Euphronios / his attorney Milon</affiliation>
+                     <persName cert="high" ref="elephantine_erc_db_modern_persons.tei.xml#m11" role="Finder">Rubensohn, Otto (excavation director)</persName>
+                     <location cert="high">
+                        <country ref="elephantine_erc_db_places.tei.xml#c1">Egypt</country>
+                        <region ref="elephantine_erc_db_places.tei.xml#r1">Upper Egypt, 1st nome</region>
+                        <settlement ref="elephantine_erc_db_places.tei.xml#s3">Elephantine</settlement>
+                     </location>
+                  </provenance>
+                  <acquisition>
+                     <date notAfter="1906" notBefore="1906" />
+                     <location>
+                        <country ref="elephantine_erc_db_places.tei.xml#c1">Egypt</country>
+                        <region ref="elephantine_erc_db_places.tei.xml#r1">Upper Egypt, 1st nome</region>
+                        <settlement ref="elephantine_erc_db_places.tei.xml#s3">Elephantine</settlement>
+                     </location>
+                     <desc>partage</desc>
+                     <listPerson>
+                        <person>
+                           <persName cert="high" ref="elephantine_erc_db_modern_persons.tei.xml#m23" role="transferor">(not relevant)</persName>
+                        </person>
+                     </listPerson>
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <licence>permission for publication upon enquiry only</licence>
+                        <ab>
+                           <location> </location>
+                           <desc>Cairo, Egyptian Museum (transferred to the museum in 1912)</desc>
+                        </ab>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl corresp="elephantine_erc_db_literature.tei.xml#42IMX8X9">
+                        <biblScope>no. 13 ter</biblScope>
+                     </bibl>
+                     <bibl corresp="elephantine_erc_db_literature.tei.xml#4GZ68NAE">
+                        <biblScope>no. 4</biblScope>
+                     </bibl>
+                     <bibl corresp="elephantine_erc_db_literature.tei.xml#TKW6XVTD">
+                        <biblScope>no. 22</biblScope>
+                     </bibl>
+                     <bibl corresp="elephantine_erc_db_literature.tei.xml#4JB5ADXJ">
+                        <biblScope>759 – 785, no. Kairo 50163</biblScope>
+                     </bibl>
+                     <bibl corresp="elephantine_erc_db_literature.tei.xml#2PCUXR58">
+                        <biblScope>107-108, 202</biblScope>
+                     </bibl>
+                     <bibl corresp="elephantine_erc_db_literature.tei.xml#U63WPEIX">
+                        <biblScope>no. 50163</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ref type="url">http://www.trismegistos.org/tm/detail.php?quick=43411</ref>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <listPerson>
+               <personGrp xml:id="scribe">
+                  <persName cert="high" ref="elephantine_erc_db_ancient_persons.tei.xml#p1815" role="scribe">Pinyris, son of Estphenis</persName>
+               </personGrp>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TAX_Text_Type">
+               <category xml:id="CAT_type185">
+                  <catDesc>Amulet</catDesc>
+                  <category xml:id="CAT_type82">
+                     <catDesc>love charm</catDesc>
+                  </category>
+               </category>
+               <category xml:id="CAT_type1">
+                  <catDesc>documentary</catDesc>
+                  <category xml:id="CAT_type2">
+                     <catDesc>account</catDesc>
+                     <category xml:id="CAT_type3">
+                        <catDesc>horizontal format</catDesc>
+                     </category>
+                     <category xml:id="CAT_type4">
+                        <catDesc>vertical format</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type5">
+                     <catDesc>administrative document</catDesc>
+                  </category>
+                  <category xml:id="CAT_type6">
+                     <catDesc>bill</catDesc>
+                  </category>
+                  <category xml:id="CAT_type89">
+                     <catDesc>commentary</catDesc>
+                  </category>
+                  <category xml:id="CAT_type7">
+                     <catDesc>contract</catDesc>
+                     <category xml:id="CAT_type8">
+                        <catDesc>horizontal format</catDesc>
+                     </category>
+                     <category xml:id="CAT_type9">
+                        <catDesc>vertical format</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type10">
+                     <catDesc>dedication</catDesc>
+                  </category>
+                  <category xml:id="CAT_type11">
+                     <catDesc>dept instrument</catDesc>
+                  </category>
+                  <category xml:id="CAT_type12">
+                     <catDesc>foundation charter</catDesc>
+                  </category>
+                  <category xml:id="CAT_type13">
+                     <catDesc>hypomnema</catDesc>
+                     <category xml:id="CAT_type14">
+                        <catDesc>horizontal format</catDesc>
+                     </category>
+                     <category xml:id="CAT_type15">
+                        <catDesc>vertical format</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type178">
+                     <catDesc>indictment</catDesc>
+                  </category>
+                  <category xml:id="CAT_type16">
+                     <catDesc>legal document</catDesc>
+                  </category>
+                  <category xml:id="CAT_type17">
+                     <catDesc>letter</catDesc>
+                     <category xml:id="CAT_type18">
+                        <catDesc>"Urkundenformat"</catDesc>
+                     </category>
+                     <category xml:id="CAT_type19">
+                        <catDesc>horizontal format</catDesc>
+                     </category>
+                     <category xml:id="CAT_type186">
+                        <catDesc>letter address</catDesc>
+                     </category>
+                     <category xml:id="CAT_type191">
+                        <catDesc>private</catDesc>
+                     </category>
+                     <category xml:id="CAT_type20">
+                        <catDesc>transversa carta</catDesc>
+                     </category>
+                     <category xml:id="CAT_type21">
+                        <catDesc>vertical format</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type22">
+                     <catDesc>list</catDesc>
+                     <category xml:id="CAT_type183">
+                        <catDesc>List of Coptic months</catDesc>
+                     </category>
+                     <category xml:id="CAT_type23">
+                        <catDesc>name list</catDesc>
+                     </category>
+                     <category xml:id="CAT_type24">
+                        <catDesc>onomasticon</catDesc>
+                     </category>
+                     <category xml:id="CAT_type25">
+                        <catDesc>product list</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type192">
+                     <catDesc>marriage contracts</catDesc>
+                  </category>
+                  <category xml:id="CAT_type26">
+                     <catDesc>names</catDesc>
+                  </category>
+                  <category xml:id="CAT_type27">
+                     <catDesc>note</catDesc>
+                  </category>
+                  <category xml:id="CAT_type28">
+                     <catDesc>oath</catDesc>
+                     <category xml:id="CAT_type29">
+                        <catDesc>vertical format</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type30">
+                     <catDesc>offer</catDesc>
+                  </category>
+                  <category xml:id="CAT_type195">
+                     <catDesc>Order for payment or delivery</catDesc>
+                  </category>
+                  <category xml:id="CAT_type31">
+                     <catDesc>proskynema</catDesc>
+                     <category xml:id="CAT_type32">
+                        <catDesc>act of worhsip wšt.t</catDesc>
+                     </category>
+                     <category xml:id="CAT_type33">
+                        <catDesc>name</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type34">
+                     <catDesc>receipt</catDesc>
+                     <category xml:id="CAT_type35">
+                        <catDesc>tax receipt</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type194">
+                     <catDesc>tombstone</catDesc>
+                  </category>
+                  <category xml:id="CAT_type36">
+                     <catDesc>will/testament</catDesc>
+                  </category>
+               </category>
+               <category xml:id="CAT_type37">
+                  <catDesc>drawing</catDesc>
+                  <category xml:id="CAT_type98">
+                     <catDesc>commentary</catDesc>
+                  </category>
+                  <category xml:id="CAT_type86">
+                     <catDesc>vigniette</catDesc>
+                  </category>
+               </category>
+               <category xml:id="CAT_type38">
+                  <catDesc>literary</catDesc>
+                  <category xml:id="CAT_type39">
+                     <catDesc>biography</catDesc>
+                  </category>
+                  <category xml:id="CAT_type40">
+                     <catDesc>commentary</catDesc>
+                  </category>
+                  <category xml:id="CAT_type41">
+                     <catDesc>eulogy</catDesc>
+                  </category>
+                  <category xml:id="CAT_type99">
+                     <catDesc>historic</catDesc>
+                  </category>
+                  <category xml:id="CAT_type43">
+                     <catDesc>lamentation</catDesc>
+                  </category>
+                  <category xml:id="CAT_type44">
+                     <catDesc>narrative</catDesc>
+                     <category xml:id="CAT_type92">
+                        <catDesc>prose</catDesc>
+                     </category>
+                     <category xml:id="CAT_type93">
+                        <catDesc>verse</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type45">
+                     <catDesc>poetry</catDesc>
+                  </category>
+                  <category xml:id="CAT_type42">
+                     <catDesc>wisdom</catDesc>
+                     <category xml:id="CAT_type90">
+                        <catDesc>instruction</catDesc>
+                     </category>
+                     <category xml:id="CAT_type91">
+                        <catDesc>proverb(s)</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="CAT_type46">
+                  <catDesc>(no inscription)</catDesc>
+               </category>
+               <category xml:id="CAT_type81">
+                  <catDesc>(other)</catDesc>
+               </category>
+               <category xml:id="CAT_type190">
+                  <catDesc>Prescription
+</catDesc>
+               </category>
+               <category xml:id="CAT_type87">
+                  <catDesc>religious</catDesc>
+                  <category xml:id="CAT_type146">
+                     <catDesc>Christian</catDesc>
+                     <category xml:id="CAT_type95">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type156">
+                        <catDesc>dedication</catDesc>
+                     </category>
+                     <category xml:id="CAT_type175">
+                        <catDesc>divination</catDesc>
+                     </category>
+                     <category xml:id="CAT_type171">
+                        <catDesc>litany</catDesc>
+                     </category>
+                     <category xml:id="CAT_type169">
+                        <catDesc>magical</catDesc>
+                     </category>
+                     <category xml:id="CAT_type165">
+                        <catDesc>oracular inquiry</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type147">
+                     <catDesc>Gnostic</catDesc>
+                  </category>
+                  <category xml:id="CAT_type148">
+                     <catDesc>Islamic</catDesc>
+                     <category xml:id="CAT_type157">
+                        <catDesc>dedication</catDesc>
+                     </category>
+                     <category xml:id="CAT_type176">
+                        <catDesc>divination</catDesc>
+                     </category>
+                     <category xml:id="CAT_type172">
+                        <catDesc>litany</catDesc>
+                     </category>
+                     <category xml:id="CAT_type168">
+                        <catDesc>magical</catDesc>
+                     </category>
+                     <category xml:id="CAT_type164">
+                        <catDesc>oracular inquiry</catDesc>
+                     </category>
+                     <category xml:id="CAT_type161">
+                        <catDesc>ritual</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type149">
+                     <catDesc>Jewish</catDesc>
+                     <category xml:id="CAT_type158">
+                        <catDesc>dedication</catDesc>
+                     </category>
+                     <category xml:id="CAT_type177">
+                        <catDesc>divination</catDesc>
+                     </category>
+                     <category xml:id="CAT_type173">
+                        <catDesc>litany</catDesc>
+                     </category>
+                     <category xml:id="CAT_type167">
+                        <catDesc>magical</catDesc>
+                     </category>
+                     <category xml:id="CAT_type163">
+                        <catDesc>oracular inquiry</catDesc>
+                     </category>
+                     <category xml:id="CAT_type160">
+                        <catDesc>ritual</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type150">
+                     <catDesc>Manichaic</catDesc>
+                  </category>
+                  <category xml:id="CAT_type151">
+                     <catDesc>Mesopotamian</catDesc>
+                  </category>
+                  <category xml:id="CAT_type152">
+                     <catDesc>polytheistic Aramaian</catDesc>
+                  </category>
+                  <category xml:id="CAT_type153">
+                     <catDesc>polytheistic Egyptian</catDesc>
+                     <category xml:id="CAT_type47">
+                        <catDesc>dedication</catDesc>
+                     </category>
+                     <category xml:id="CAT_type48">
+                        <catDesc>divination</catDesc>
+                     </category>
+                     <category xml:id="CAT_type49">
+                        <catDesc>litany</catDesc>
+                     </category>
+                     <category xml:id="CAT_type50">
+                        <catDesc>magical</catDesc>
+                     </category>
+                     <category xml:id="CAT_type51">
+                        <catDesc>oracular inquiry</catDesc>
+                     </category>
+                     <category xml:id="CAT_type52">
+                        <catDesc>ritual</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type154">
+                     <catDesc>unclear religion</catDesc>
+                     <category xml:id="CAT_type155">
+                        <catDesc>dedication</catDesc>
+                     </category>
+                     <category xml:id="CAT_type174">
+                        <catDesc>divination</catDesc>
+                     </category>
+                     <category xml:id="CAT_type170">
+                        <catDesc>litany</catDesc>
+                     </category>
+                     <category xml:id="CAT_type166">
+                        <catDesc>magical</catDesc>
+                     </category>
+                     <category xml:id="CAT_type162">
+                        <catDesc>oracular inquiry</catDesc>
+                     </category>
+                     <category xml:id="CAT_type159">
+                        <catDesc>ritual</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="CAT_type53">
+                  <catDesc>religious-literary</catDesc>
+                  <category xml:id="CAT_type55">
+                     <catDesc>Christian</catDesc>
+                     <category xml:id="CAT_type56">
+                        <catDesc>Biblical</catDesc>
+                        <category xml:id="CAT_type110">
+                           <catDesc>New Testament</catDesc>
+                        </category>
+                        <category xml:id="CAT_type111">
+                           <catDesc>Old Testament</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="CAT_type96">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type94">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type137">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type112">
+                        <catDesc>lithurgical</catDesc>
+                     </category>
+                     <category xml:id="CAT_type113">
+                        <catDesc>monastical</catDesc>
+                     </category>
+                     <category xml:id="CAT_type121">
+                        <catDesc>myth</catDesc>
+                     </category>
+                     <category xml:id="CAT_type114">
+                        <catDesc>patristic</catDesc>
+                     </category>
+                     <category xml:id="CAT_type65">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type103">
+                     <catDesc>Gnostic</catDesc>
+                     <category xml:id="CAT_type138">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type122">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type136">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type109">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type59">
+                     <catDesc>Islamic</catDesc>
+                     <category xml:id="CAT_type139">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type123">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type135">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type120">
+                        <catDesc>myth</catDesc>
+                     </category>
+                     <category xml:id="CAT_type66">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                     <category xml:id="CAT_type60">
+                        <catDesc>Quranic</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type61">
+                     <catDesc>Jewish</catDesc>
+                     <category xml:id="CAT_type140">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type124">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type115">
+                        <catDesc>Hebrew Bible</catDesc>
+                     </category>
+                     <category xml:id="CAT_type134">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type119">
+                        <catDesc>myth</catDesc>
+                     </category>
+                     <category xml:id="CAT_type67">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type104">
+                     <catDesc>Manichaic</catDesc>
+                     <category xml:id="CAT_type141">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type125">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type133">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type107">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type101">
+                     <catDesc>Mesopotamian</catDesc>
+                     <category xml:id="CAT_type142">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type126">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type132">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type118">
+                        <catDesc>myth</catDesc>
+                     </category>
+                     <category xml:id="CAT_type108">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type102">
+                     <catDesc>polytheistic Aramaian</catDesc>
+                     <category xml:id="CAT_type143">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type127">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type131">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type117">
+                        <catDesc>myth</catDesc>
+                     </category>
+                     <category xml:id="CAT_type106">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type63">
+                     <catDesc>polytheistic Egyptian</catDesc>
+                     <category xml:id="CAT_type54">
+                        <catDesc>Book of the Dead</catDesc>
+                     </category>
+                     <category xml:id="CAT_type57">
+                        <catDesc>Coffin Text</catDesc>
+                     </category>
+                     <category xml:id="CAT_type144">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type128">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type58">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type116">
+                        <catDesc>myth</catDesc>
+                     </category>
+                     <category xml:id="CAT_type68">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                     <category xml:id="CAT_type69">
+                        <catDesc>Pyramid Text</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type105">
+                     <catDesc>unclear religion</catDesc>
+                     <category xml:id="CAT_type145">
+                        <catDesc>commentary</catDesc>
+                     </category>
+                     <category xml:id="CAT_type129">
+                        <catDesc>eulogy</catDesc>
+                     </category>
+                     <category xml:id="CAT_type130">
+                        <catDesc>hymn</catDesc>
+                     </category>
+                     <category xml:id="CAT_type62">
+                        <catDesc>myth</catDesc>
+                     </category>
+                     <category xml:id="CAT_type64">
+                        <catDesc>prayer</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="CAT_type88">
+                  <catDesc>scientific</catDesc>
+                  <category xml:id="CAT_type182">
+                     <catDesc>Alchemical presciption</catDesc>
+                  </category>
+                  <category xml:id="CAT_type70">
+                     <catDesc>astrology</catDesc>
+                     <category xml:id="CAT_type71">
+                        <catDesc>horoscop</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type72">
+                     <catDesc>astronomy</catDesc>
+                  </category>
+                  <category xml:id="CAT_type196">
+                     <catDesc>Book of Dream</catDesc>
+                  </category>
+                  <category xml:id="CAT_type97">
+                     <catDesc>commentary/gloss</catDesc>
+                  </category>
+                  <category xml:id="CAT_type73">
+                     <catDesc>math</catDesc>
+                     <category xml:id="CAT_type74">
+                        <catDesc>calculation</catDesc>
+                     </category>
+                     <category xml:id="CAT_type75">
+                        <catDesc>essay</catDesc>
+                     </category>
+                     <category xml:id="CAT_type76">
+                        <catDesc>geometry</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type77">
+                     <catDesc>medicine</catDesc>
+                     <category xml:id="CAT_type78">
+                        <catDesc>essay</catDesc>
+                     </category>
+                     <category xml:id="CAT_type79">
+                        <catDesc>prescription</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="CAT_type100">
+                     <catDesc>nilometer</catDesc>
+                  </category>
+                  <category xml:id="CAT_type80">
+                     <catDesc>writing exercise</catDesc>
+                  </category>
+               </category>
+               <category xml:id="CAT_type193">
+                  <catDesc>(unknown)</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="TAX_Lang">
+               <category xml:id="akk">
+                  <catDesc>Akkadian</catDesc>
+               </category>
+               <category xml:id="ar">
+                  <catDesc>Arabic</catDesc>
+               </category>
+               <category xml:id="arc">
+                  <catDesc>Aramaic, Imperial</catDesc>
+               </category>
+               <category xml:id="egypt">
+                  <catDesc>Egyptian</catDesc>
+                  <category xml:id="cop">
+                     <catDesc>Coptic</catDesc>
+                     <category xml:id="cop-x-copa">
+                        <catDesc>Akhmimic</catDesc>
+                     </category>
+                     <category xml:id="cop-x-copb">
+                        <catDesc>Bohairic</catDesc>
+                     </category>
+                     <category xml:id="cop-x-copf">
+                        <catDesc>Fayumic</catDesc>
+                     </category>
+                     <category xml:id="cop-x-copm">
+                        <catDesc>Middle Egyptian / Oxyrhynkhitic</catDesc>
+                     </category>
+                     <category xml:id="cop-x-copo">
+                        <catDesc>Old Coptic</catDesc>
+                     </category>
+                     <category xml:id="cop-x-cops">
+                        <catDesc>Sahidic</catDesc>
+                     </category>
+                     <category xml:id="cop-x-copa2">
+                        <catDesc>Sub-Akhmimic</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="egy-x-dem">
+                     <catDesc>Demotic</catDesc>
+                     <category xml:id="egy-x-deme">
+                        <catDesc>Early Demotic</catDesc>
+                     </category>
+                     <category xml:id="egy-x-demep">
+                        <catDesc>Early Demotic - Ptolemaic Demotic</catDesc>
+                     </category>
+                     <category xml:id="egy-x-dempr">
+                        <catDesc>Ptolemaic - Roman Demotic</catDesc>
+                     </category>
+                     <category xml:id="egy-x-demp">
+                        <catDesc>Ptolemaic Demotic</catDesc>
+                     </category>
+                     <category xml:id="egy-x-demr">
+                        <catDesc>Roman Demotic</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="egy-x-egyl">
+                     <catDesc>Late Egyptian</catDesc>
+                  </category>
+                  <category xml:id="egy-x-egylr">
+                     <catDesc>Later Egyptian</catDesc>
+                  </category>
+                  <category xml:id="egy-x-egym">
+                     <catDesc>Middle Egyptian, Classical</catDesc>
+                  </category>
+                  <category xml:id="egy-x-egsp">
+                     <catDesc>Middle Egyptian, Late</catDesc>
+                  </category>
+                  <category xml:id="egy-x-egyn">
+                     <catDesc>Neo-Middle Egyptian</catDesc>
+                  </category>
+                  <category xml:id="egy-x-egyo">
+                     <catDesc>Old Egyptian</catDesc>
+                  </category>
+                  <category xml:id="egy">
+                     <catDesc>pre-Coptic Egyptian</catDesc>
+                  </category>
+                  <category xml:id="egygr">
+                     <catDesc>pre-Coptic Egyptian / Greek</catDesc>
+                  </category>
+                  <category xml:id="egy-x-egyp">
+                     <catDesc>Ptolemaic</catDesc>
+                  </category>
+               </category>
+               <category xml:id="egx">
+                  <catDesc>Egyptian languages</catDesc>
+               </category>
+               <category xml:id="en">
+                  <catDesc>English</catDesc>
+               </category>
+               <category xml:id="de">
+                  <catDesc>German</catDesc>
+               </category>
+               <category xml:id="grc">
+                  <catDesc>Greek, Ancient</catDesc>
+               </category>
+               <category xml:id="grc-cop">
+                  <catDesc>Greek, Ancient or Coptic</catDesc>
+               </category>
+               <category xml:id="heb">
+                  <catDesc>Hebrew</catDesc>
+               </category>
+               <category xml:id="hbo">
+                  <catDesc>Hebrew, Ancient</catDesc>
+               </category>
+               <category xml:id="la">
+                  <catDesc>Latin</catDesc>
+               </category>
+               <category xml:id="xmr">
+                  <catDesc>Meroitic</catDesc>
+               </category>
+               <category xml:id="nolg">
+                  <catDesc>(none)</catDesc>
+               </category>
+               <category xml:id="unidentified">
+                  <catDesc>(not identified)</catDesc>
+               </category>
+               <category xml:id="nub">
+                  <catDesc>Nubian</catDesc>
+                  <category xml:id="onw">
+                     <catDesc>Old Nubian</catDesc>
+                  </category>
+               </category>
+               <category xml:id="peo">
+                  <catDesc>Old Persian</catDesc>
+               </category>
+               <category xml:id="pal">
+                  <catDesc>Pahlavi</catDesc>
+               </category>
+               <category xml:id="phn">
+                  <catDesc>Phoenician</catDesc>
+               </category>
+               <category xml:id="syr">
+                  <catDesc>Syriac</catDesc>
+               </category>
+               <category xml:id="unin">
+                  <catDesc>Uninscribed</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="TAX_Scripts">
+               <category xml:id="Arab">
+                  <catDesc>Arabic</catDesc>
+               </category>
+               <category xml:id="Armi">
+                  <catDesc>Aramaic, Imperial</catDesc>
+               </category>
+               <category xml:id="Copt">
+                  <catDesc>Coptic</catDesc>
+                  <category xml:id="Copt-x-Coptcs">
+                     <catDesc>Coptic Cursive</catDesc>
+                  </category>
+                  <category xml:id="Copt-x-Copthu">
+                     <catDesc>Coptic Half-uncial</catDesc>
+                  </category>
+                  <category xml:id="Copt-x-Coptu">
+                     <catDesc>Coptic Uncial</catDesc>
+                  </category>
+               </category>
+               <category xml:id="Egy">
+                  <catDesc>Egyptian</catDesc>
+                  <category xml:id="Egyp-x-Egypcs">
+                     <catDesc>Cursive Hieroglyphs</catDesc>
+                  </category>
+                  <category xml:id="Egyd">
+                     <catDesc>Demotic</catDesc>
+                     <category xml:id="Egyd-x-Egydol">
+                        <catDesc>Early Demotic</catDesc>
+                     </category>
+                     <category xml:id="Egyd-x-Egydolmd">
+                        <catDesc>Early to Middle Demotic</catDesc>
+                     </category>
+                     <category xml:id="Egyd-x-Egydlt">
+                        <catDesc>Late Demotic</catDesc>
+                     </category>
+                     <category xml:id="Egyd-x-Egydmd">
+                        <catDesc>Middle Demotic</catDesc>
+                     </category>
+                     <category xml:id="Egyd-x-Egydmdlt ">
+                        <catDesc>Middle to Late Demotic</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="Egyh">
+                     <catDesc>Hieratic</catDesc>
+                     <category xml:id="Egyh-x-Egyhab">
+                        <catDesc>Abnormal Hieratic</catDesc>
+                     </category>
+                     <category xml:id="Egyh-x-Egyhar">
+                        <catDesc>Archaic Hieratic</catDesc>
+                     </category>
+                     <category xml:id="Egyh-x-Egyhlr">
+                        <catDesc>Late Hieratic</catDesc>
+                        <category xml:id="Egyh-x-Egyhlrb">
+                           <catDesc>"Späthieratische Buchschrift"</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="Egyh-x-Egyhmd">
+                        <catDesc>Middle Hieratic</catDesc>
+                        <category xml:id="Egyh-x-Egyhmdb">
+                           <catDesc>"Mittelhieratische Buchschrift"</catDesc>
+                        </category>
+                        <category xml:id="Egyh-x-Egyhmdc">
+                           <catDesc>"Mittelhieratische Kanzleischrift"</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="Egyh-x-Egyhlt">
+                        <catDesc>New Kingdom Hieratic</catDesc>
+                        <category xml:id="Egyh-x-Egyhltb">
+                           <catDesc>"Neuhieratische Buchschrift"</catDesc>
+                        </category>
+                        <category xml:id="Egyh-x-Egyhltc">
+                           <catDesc>"Neuhieratische Kanzleischrift"</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="Egyh-x-Egyhol">
+                        <catDesc>Old Hieratic</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="Egyp">
+                     <catDesc>Hieroglyphs</catDesc>
+                     <category xml:id="Egyp-x-Egypcr">
+                        <catDesc>Cryptography</catDesc>
+                        <category xml:id="Egyp-x-Egypl">
+                           <catDesc>Hieroglyphs | Late Period</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="Egyp-x-Egyppt">
+                        <catDesc>Ptolemaic</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="Grek">
+                  <catDesc>Greek</catDesc>
+               </category>
+               <category xml:id="Grek-Copt">
+                  <catDesc>Greek or Coptic</catDesc>
+               </category>
+               <category xml:id="Heb">
+                  <catDesc>Hebrew</catDesc>
+               </category>
+               <category xml:id="Latn">
+                  <catDesc>Latin</catDesc>
+               </category>
+               <category xml:id="Merc">
+                  <catDesc>Meroitic Cursive</catDesc>
+               </category>
+               <category xml:id="Mero">
+                  <catDesc>Meroitic Hieroglyphs</catDesc>
+               </category>
+               <category xml:id="noInschr">
+                  <catDesc>(none)</catDesc>
+               </category>
+               <category xml:id="Unidentified">
+                  <catDesc>(not identified)</catDesc>
+               </category>
+               <category xml:id="Phlv">
+                  <catDesc>Pahlavi</catDesc>
+               </category>
+               <category xml:id="Phnx">
+                  <catDesc>Phoenician</catDesc>
+               </category>
+               <category xml:id="Syrc">
+                  <catDesc>Syriac</catDesc>
+               </category>
+               <category xml:id="Notext">
+                  <catDesc>uninscribed</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textDesc>
+            <channel />
+            <constitution type="single">All line beginnings and endings damaged. Upper lines faded.</constitution>
+            <derivation />
+            <domain />
+            <factuality />
+            <interaction />
+            <preparedness />
+            <purpose />
+         </textDesc>
+         <langUsage>
+            <language ident="egy-x-demp-Egyd-x-Egydmd" />
+         </langUsage>
+         <textClass>
+            <catRef scheme="TAX_Text_Type" target="#CAT_type28" />
+            <keywords>
+               <term>Acker</term>
+               <term>Versteigerung</term>
+               <term>Eid</term>
+               <term>Zahlungsunfähigkeit</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change />
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition">
+            <ab xml:lang="Egyd-Egydmd egy-demp">
+               <pb n="R" />
+               <lb n="1" rend="right-to-left" /><date notAfter="-222-01-11" notBefore="-223-12-13" when-custom="Ptolemaios_III:25">ḥsb.t 25 ı͗bd 3 ꜣḫ.t</date> n <rs ref="ancient_titles.xml#idt2" type="title">pr-ꜥꜣ</rs>
+               <lb n="2" /><persName ref="ancient_persons.xml#r2010">Ptrwmys</persName> ı͗rm <rs ref="ancient_titles.xml#idt206" type="title">tꜣ pr-ꜥꜣ.t</rs>
+               <note>For this title cf. also Moje, Herrscherfrauen (2013), with further literature.</note>
+               <persName ref="ancient_persons.xml#r655">Brnygꜣ</persName>
+               <lb n="3" /><date notAfter="-222-01-11" notBefore="-223-12-13" when-custom="Ptolemaios_III:25">ḥsb.t 25 ı͗bd 3 ꜣḫ.t</date>
+               <rs ref="ancient_titles.xml#idt2" type="title">pr-ꜥꜣ</rs>
+               <persName ref="ancient_persons.xml#r2010">Ptrwmys <lb n="4" />sꜣ <surname>Ptrwmys</surname></persName> ı͗rm <rs ref="ancient_titles.xml#idt206" type="title">tꜣ pr-ꜥꜣ.t</rs>
+               <persName ref="ancient_persons.xml#r655">Brnygꜣ</persName>
+               <lb n="5" /><persName ref="ancient_persons.xml#d84">nꜣ <lb n="6" />nṯr.w mnḫ.w</persName>
+               <persName ref="ancient_persons.xml#p1815">Pꜣ-ı͗wı͗w-(n-)ḥr sꜣ <surname>Ns-šw-Tfnw.t</surname></persName> pꜣ nty ḏd <lb n="7" />n <persName ref="ancient_persons.xml#p480">Mrn </persName><note>According to Den Brinker / Muhs / Vleeming, DBL (2005), 107. A reading variant provides Sethe, Bürgschaftsrecht (1920), Nr. 13 ter: Mln.</note>
+               <rs ref="ancient_titles.xml#idt52" type="title">pꜣ rd</rs>
+               <persName ref="ancient_persons.xml#p4037">ꜣwprnys</persName>
+               <lb n="8" /><rs ref="ancient_titles.xml#idt122" type="title">pꜣ rgtr</rs> ꜥnḫ <rs ref="ancient_titles.xml#id" type="title">pr-ꜥꜣ</rs>
+               <persName ref="ancient_persons.xml#r2010">Ptrwmys</persName>
+               <lb n="9" />ı͗rm <rs ref="ancient_titles.xml#idt206" type="title">tꜣ pr-ꜥꜣ.t</rs>
+               <persName ref="ancient_persons.xml#r655">Brnygꜣ</persName>
+               <lb n="10" />ı͗rm <persName ref="ancient_persons.xml#d85">nꜣ nṯr.w sn.w </persName>ı͗.ı͗r ḏı͗.t ḫpr.w <lb n="11" />ı͗rm <persName ref="ancient_persons.xml#d90">nꜣ nṯr.w nty nḥm</persName> ı͗.ı͗r ḏı͗.t ḫpr nꜣ ı͗.ı͗r <lb n="12" />ḏı͗.t ḫpr.w ı͗rm <persName ref="ancient_persons.xml#d84">nꜣ nṯr.w mnḫ.w</persName> ı͗rm <persName ref="ancient_persons.xml#d6">ꜣs.t</persName>
+               <lb n="13" />ı͗rm <persName ref="ancient_persons.xml#d91">Wsı͗r-Ḥp</persName> ı͗rm nꜣ ky nṯr.w <lb n="14" />tꜣ pš.t n pꜣ ꜣḥ n pꜣ ḏlꜥ <note>Cf. Chicago Demotic Dictionary DJ, 77.</note> n <placeName ref="places.xml#s136">Tꜣ-s.t-tꜣy=w- <lb n="15" />N.t</placeName> nty ı͗r sṯꜣ-ꜣḥ(?) 1 <note>According to Den Brinker / Muhs / Vleeming, DBL (2005), 107. A reading variant provides Sethe, Bürgschaftsrecht (1920), Nr. 13 ter: st.t.w ꜣḥ 1.</note> r.ḏı͗ <persName ref="ancient_persons.xml#p4037">ꜣwprnys</persName>
+               <lb n="16" /><rs ref="ancient_titles.xml#idt122" type="title">pꜣ rgtr</rs> (r) dbꜣ-ḥḏ ẖnw tꜣy=y ḏsf <note>According to Den Brinker / Muhs / Vleeming, DBL (2005), 107. A reading variant provides Sethe, Bürgschaftsrecht (1920), Nr. 13 ter: bsf.</note>
+               <lb n="17" />pꜣ ꜣḥ n-rn=f ı͗w s Ns-šw-Tfnw.t pꜣy=y ı͗ty <lb n="18" />sẖ=f r.r=f n <persName ref="ancient_persons.xml#p485">Tꜣ-ḥtr</persName> tꜣy=y mw.t mn <lb n="19" />mtw=f gr nb bl=y r.hn r pꜣ ḏı͗.t s <lb n="20" />ı͗.ı͗r <persName ref="ancient_persons.xml#p4037">ꜣwprnys</persName> (r) dbꜣ-ḥḏ <lb n="21" />ꜥnḫ ḥr=y n-ḏr.t <persName ref="ancient_persons.xml#p1815">Pꜣ-ı͗wı͗w sꜣ <surname>Ns-šw-Tfnw.t</surname></persName>
+               <lb n="22" />n <date notAfter="-222-01-11" notBefore="-223-12-13" when-custom="Ptolemaios_III:25">ḥsb.t 25 ı͗bd 3 ꜣḫ.t</date> n <rs ref="ancient_titles.xml#idt2" type="title">pr-ꜥꜣ</rs>
+               <persName ref="ancient_persons.xml#r2010">Ptrwmys <lb n="23" />sꜣ <surname>Ptrwmys</surname></persName> ı͗rm <rs ref="ancient_titles.xml#idt206" type="title">tꜣ pr-ꜥꜣ.t</rs>
+               <lb n="24" /><persName ref="ancient_persons.xml#r655">Brnygꜣ</persName>
+               <surplus reason="repeated">ı͗rm nꜣ nṯr.w sn.w</surplus>
+               <lb n="25" /><surplus reason="mistake">ı͗rm</surplus>
+               <persName ref="ancient_persons.xml#d84">nꜣ nṯr.w mnḫ.w</persName>
+               <lb n="26" />sẖ <persName ref="ancient_persons.xml#1815">Pꜣ-ı͗wı͗w sꜣ <surname>Ns-šw-Tfnw.t</surname></persName>
+               <lb n="27" />r-ẖ nꜣ nty sẖ ḥry </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:lang=" en">
+               <pb n="" />
+               <lb n="1" />25th regnal year, Hathyr of Pharaoh <lb n="2" />Ptolemaios (III.) and of the Female Pharaoh Berenike (II.) <lb n="3" />25th regnal year, Hathyr of Ptolemaios (III.), <lb n="4" />son of Ptolemaios (II.), and of the Female Pharaoh Berenike (II), <lb n="5" />the <lb n="6" />gods Euergetai. Pinyris, son of Estphenis is the one who says <lb n="7" />to Milon, the attorney of Euphronios <lb n="8" />praktor: ‘ By Pharaoh Ptolemaios (III.) <lb n="9" />and the Female Pharaoh Berenike (II.) <lb n="10" />and the gods Adelphoi, who created them, <lb n="11" />and the gods Soteres, who created those who <lb n="12" />created them, and the gotes Euergetai and Isis <lb n="13" />and Osiris-Apis and the other gods: <lb n="14" />The half of the field in the land section(?)of Ta-set-taiu- <lb n="15" />-Neith, which amounts to 1 aroura of field(?), which gave away Euphronios <lb n="16" />praktor, against repayment of my mortgage. <lb n="17"
+                   />The same field: It formerly belongs to Estphenis, my father. <lb n="18" />He made him over to Tathres, my mother. <lb n="19" />He had no master besides me till the giving-away-of-it, <lb n="20" />which Euphronios executed, against repayment. <lb n="21" />It may live my face!’ Issued by Pinyris, son of Estphenis, <lb n="22" />in the 25th regnal year, Hathyr of Pharaoh Ptolemaios (III.), <lb n="23" />son of Ptolemaios (II.), and of the Female Pharaoh <lb n="24" />Berenike (II.) {and the gods Adelphoi} <lb n="25" />{and} the gods Euergetai. <lb n="26" />Countersigned by Pinyris, son of Estphenis, <lb n="27" />in accordance with that which was written above. </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
