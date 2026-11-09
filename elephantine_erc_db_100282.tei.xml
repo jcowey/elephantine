@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="http://elephantine.smb.museum/tei/css/tei_oxygen_ERC_elephantine.css"?>
+<!DOCTYPE TEI SYSTEM "http://elephantine.smb.museum/tei/css/tei_erc_elephantine.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="elephantine_erc_db_100282">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Pap. Berlin P. 13495</title>
+<editor>Verena M. Lepper</editor>
+<respStmt>
+<resp>Artefact metadata</resp>
+<persName>Daniel Werning, Stefan Wimmer, Verena Lepper</persName>
+</respStmt>
+<respStmt>
+<resp>TEI encoding</resp>
+<persName ref="http://www.danielwerning.de">Daniel A. Werning</persName>
+<persName ref="http://www.sandro-schwarz.com">Sandro Schwarz</persName>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>
+<orgName ref="http://d-nb.info/gnd/1090539932">Ägyptisches Museum und Papyrussammlung, Berlin</orgName>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date when="29.05.2017"/>
+<idno>v2.1</idno>
+<availability>
+<licence target="http://creativecommons.org/licenses/by-sa/3.0/">Licence for this TEI document: Creative Commons, Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<country>Germany</country>
+<settlement>Berlin</settlement>
+<institution ref="http://d-nb.info/gnd/1090539932">Berlin, Ägyptisches Museum und Papyrussammlung, Staatliche Museen zu Berlin, SPK (P)</institution>
+<repository>Berlin, Ägyptisches Museum und Papyrussammlung, Staatliche Museen zu Berlin, SPK (P)</repository>
+<collection>Papyrussammlung</collection>
+<idno>Pap. Berlin P. 13495</idno>
+<msName>Pap. Berlin P. 13495</msName>
+</msIdentifier>
+<msContents>
+<summary>Eingabe der Juden von Elef. an Bagohi u. die Söhne des Sinballat, betr. Wiederaufbau ihres Tempels</summary>
+<msItem xml:id="RDB_TXT100282" defective="false">
+<locus>verso/recto</locus>
+<title type="original">
+</title>
+<title type="modern">
+</title>
+<textLang mainLang="arc-Armi"/>
+<note/>
+</msItem>
+</msContents>
+<physDesc>
+<objectDesc>
+<supportDesc xml:id="RDB_TR100282">
+<support>
+<dimensions>
+</dimensions>
+<material>papyrus</material>
+<objectType>papyrus</objectType>
+<origDate>
+</origDate>
+</support>
+<condition>
+<list>
+<item>object's condition: <measure>complete</measure>
+<desc>geringe Brüche v.a. im oberen Bereich. </desc>
+</item>  <item>text's condition: <measure>complete</measure>
+</item>
+</list>
+<join type="Joints"/>
+</condition>
+</supportDesc>
+<layoutDesc>
+<layout writtenLines="R: 30">
+</layout>
+</layoutDesc>
+</objectDesc>
+<handDesc>
+<handNote scribeRef="#scribe">zunehmend flüchtiger, sehr unregelmäßiger Duktus</handNote>
+</handDesc>
+<scriptDesc>
+<scriptNote medium="ink black monochrome"/>
+</scriptDesc>
+<decoDesc>
+<decoNote/>
+</decoDesc>
+</physDesc> <history>
+<origin>
+<origDate>
+<date notBefore="-407" notAfter="-407">BCE 407, Nov. 25 (Darius II., regnal year 17, Marheshvan 20)</date>
+<certainty locus="value">
+<desc>Eigendatierung</desc>
+</certainty>
+</origDate>
+<origPlace>
+</origPlace>
+</origin>
+<provenance type="archaeological excavation">
+<date notBefore="1906" notAfter="1907"/>
+<affiliation/>
+<persName ref="elephantine_erc_db_modern_persons.tei.xml#m11" role="Finder">Rubensohn, Otto (excavation director)</persName>
+<location>
+<country ref="elephantine_erc_db_places.tei.xml#c1">Egypt</country>
+<region ref="elephantine_erc_db_places.tei.xml#r1">Upper Egypt, 1st nome</region>
+<settlement ref="elephantine_erc_db_places.tei.xml#s3">Elephantine</settlement>
+</location>
+</provenance>
+<acquisition>
+<note>Ausgrabung des Hr. Dr. O. Rubensohn in Elephantine 1906/07</note>
+</acquisition>
+</history>
+<additional>
+<adminInfo>
+<availability>
+<licence>(unknown)</licence>
+<ab>
+<location>
+</location>
+</ab>
+</availability>
+<note>1958 vorhanden</note>
+</adminInfo>
+<surrogates>
+<list>
+<item>
+<graphic url="//pk/smb/Mediadaten/Projekte/AEMP/Rubensohn-Bibliothek/ERC-Datenbank/Bilder/fullsize/P_13495_R_001.jpg">
+</graphic>
+</item>
+<item>
+<graphic url="//pk/smb/Mediadaten/Projekte/AEMP/Rubensohn-Bibliothek/ERC-Datenbank/Bilder/fullsize/P_13495_V_001.jpg">
+</graphic>
+</item>
+</list>
+</surrogates>
+</additional>
+</msDesc>
+</sourceDesc>
+</fileDesc> <encodingDesc>
+<classDecl>
+<taxonomy xml:id="TAX_Text_Type">
+<category xml:id="CAT_type1">
+<catDesc>documentary</catDesc>
+<category xml:id="CAT_type2">
+<catDesc>account</catDesc>
+<category xml:id="CAT_type3">
+<catDesc>horizontal format</catDesc>
+</category>
+<category xml:id="CAT_type4">
+<catDesc>vertical format</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type5">
+<catDesc>administrative document</catDesc>
+</category>
+<category xml:id="CAT_type6">
+<catDesc>bill</catDesc>
+</category>
+<category xml:id="CAT_type89">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type7">
+<catDesc>contract</catDesc>
+<category xml:id="CAT_type8">
+<catDesc>horizontal format</catDesc>
+</category>
+<category xml:id="CAT_type9">
+<catDesc>vertical format</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type10">
+<catDesc>dedication</catDesc>
+</category>
+<category xml:id="CAT_type11">
+<catDesc>dept instrument</catDesc>
+</category>
+<category xml:id="CAT_type12">
+<catDesc>foundation charter</catDesc>
+</category>
+<category xml:id="CAT_type13">
+<catDesc>hypomnema</catDesc>
+<category xml:id="CAT_type14">
+<catDesc>horizontal format</catDesc>
+</category>
+<category xml:id="CAT_type15">
+<catDesc>vertical format</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type16">
+<catDesc>legal document</catDesc>
+</category>
+<category xml:id="CAT_type17">
+<catDesc>letter</catDesc>
+<category xml:id="CAT_type18">
+<catDesc>"Urkundenformat"</catDesc>
+</category>
+<category xml:id="CAT_type19">
+<catDesc>horizontal format</catDesc>
+</category>
+<category xml:id="CAT_type20">
+<catDesc>transversa carta</catDesc>
+</category>
+<category xml:id="CAT_type21">
+<catDesc>vertical format</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type22">
+<catDesc>list</catDesc>
+<category xml:id="CAT_type23">
+<catDesc>name list</catDesc>
+</category>
+<category xml:id="CAT_type24">
+<catDesc>onomasticon</catDesc>
+</category>
+<category xml:id="CAT_type25">
+<catDesc>product list</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type26">
+<catDesc>names</catDesc>
+</category>
+<category xml:id="CAT_type27">
+<catDesc>note</catDesc>
+</category>
+<category xml:id="CAT_type28">
+<catDesc>oath</catDesc>
+<category xml:id="CAT_type29">
+<catDesc>vertical format</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type30">
+<catDesc>offer</catDesc>
+</category>
+<category xml:id="CAT_type31">
+<catDesc>proskynema</catDesc>
+<category xml:id="CAT_type32">
+<catDesc>act of worhsip wšt.t</catDesc>
+</category>
+<category xml:id="CAT_type33">
+<catDesc>name</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type34">
+<catDesc>receipt</catDesc>
+<category xml:id="CAT_type35">
+<catDesc>tax receipt</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type36">
+<catDesc>will/testament</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type37">
+<catDesc>drawing</catDesc>
+<category xml:id="CAT_type98">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type86">
+<catDesc>vigniette</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type38">
+<catDesc>literary</catDesc>
+<category xml:id="CAT_type39">
+<catDesc>biography</catDesc>
+</category>
+<category xml:id="CAT_type40">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type41">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type99">
+<catDesc>historic</catDesc>
+</category>
+<category xml:id="CAT_type43">
+<catDesc>lamentation</catDesc>
+</category>
+<category xml:id="CAT_type44">
+<catDesc>narrative</catDesc>
+<category xml:id="CAT_type92">
+<catDesc>prose</catDesc>
+</category>
+<category xml:id="CAT_type93">
+<catDesc>verse</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type45">
+<catDesc>poetry</catDesc>
+</category>
+<category xml:id="CAT_type42">
+<catDesc>wisdom</catDesc>
+<category xml:id="CAT_type90">
+<catDesc>instruction</catDesc>
+</category>
+<category xml:id="CAT_type91">
+<catDesc>proverb(s)</catDesc>
+</category>
+</category>
+</category>
+<category xml:id="CAT_type46">
+<catDesc>(no inscription)</catDesc>
+</category>
+<category xml:id="CAT_type81">
+<catDesc>(other)</catDesc>
+</category>
+<category xml:id="CAT_type87">
+<catDesc>religious</catDesc>
+<category xml:id="CAT_type146">
+<catDesc>Christian</catDesc>
+<category xml:id="CAT_type95">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type156">
+<catDesc>dedication</catDesc>
+</category>
+<category xml:id="CAT_type175">
+<catDesc>divination</catDesc>
+</category>
+<category xml:id="CAT_type171">
+<catDesc>litany</catDesc>
+</category>
+<category xml:id="CAT_type169">
+<catDesc>magical</catDesc>
+</category>
+<category xml:id="CAT_type165">
+<catDesc>oracular inquery</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type147">
+<catDesc>Gnostic</catDesc>
+</category>
+<category xml:id="CAT_type148">
+<catDesc>Islamic</catDesc>
+<category xml:id="CAT_type157">
+<catDesc>dedication</catDesc>
+</category>
+<category xml:id="CAT_type176">
+<catDesc>divination</catDesc>
+</category>
+<category xml:id="CAT_type172">
+<catDesc>litany</catDesc>
+</category>
+<category xml:id="CAT_type168">
+<catDesc>magical</catDesc>
+</category>
+<category xml:id="CAT_type164">
+<catDesc>oracular inquery</catDesc>
+</category>
+<category xml:id="CAT_type161">
+<catDesc>ritual</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type149">
+<catDesc>Jewish</catDesc>
+<category xml:id="CAT_type158">
+<catDesc>dedication</catDesc>
+</category>
+<category xml:id="CAT_type177">
+<catDesc>divination</catDesc>
+</category>
+<category xml:id="CAT_type173">
+<catDesc>litany</catDesc>
+</category>
+<category xml:id="CAT_type167">
+<catDesc>magical</catDesc>
+</category>
+<category xml:id="CAT_type163">
+<catDesc>oracular inquery</catDesc>
+</category>
+<category xml:id="CAT_type160">
+<catDesc>ritual</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type150">
+<catDesc>Manichaic</catDesc>
+</category>
+<category xml:id="CAT_type151">
+<catDesc>Mesopotamian</catDesc>
+</category>
+<category xml:id="CAT_type152">
+<catDesc>polytheistic Aramaian</catDesc>
+</category>
+<category xml:id="CAT_type153">
+<catDesc>polytheistic Egyptian</catDesc>
+<category xml:id="CAT_type47">
+<catDesc>dedication</catDesc>
+</category>
+<category xml:id="CAT_type48">
+<catDesc>divination</catDesc>
+</category>
+<category xml:id="CAT_type49">
+<catDesc>litany</catDesc>
+</category>
+<category xml:id="CAT_type50">
+<catDesc>magical</catDesc>
+</category>
+<category xml:id="CAT_type51">
+<catDesc>oracular inquery</catDesc>
+</category>
+<category xml:id="CAT_type52">
+<catDesc>ritual</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type154">
+<catDesc>unclear religion</catDesc>
+<category xml:id="CAT_type155">
+<catDesc>dedication</catDesc>
+</category>
+<category xml:id="CAT_type174">
+<catDesc>divination</catDesc>
+</category>
+<category xml:id="CAT_type170">
+<catDesc>litany</catDesc>
+</category>
+<category xml:id="CAT_type166">
+<catDesc>magical</catDesc>
+</category>
+<category xml:id="CAT_type162">
+<catDesc>oracular inquery</catDesc>
+</category>
+<category xml:id="CAT_type159">
+<catDesc>ritual</catDesc>
+</category>
+</category>
+</category>
+<category xml:id="CAT_type53">
+<catDesc>religious-literary</catDesc>
+<category xml:id="CAT_type55">
+<catDesc>Christian</catDesc>
+<category xml:id="CAT_type56">
+<catDesc>Biblical</catDesc>
+<category xml:id="CAT_type110">
+<catDesc>New Testament</catDesc>
+</category>
+<category xml:id="CAT_type111">
+<catDesc>Old Testament</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type96">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type94">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type137">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type112">
+<catDesc>lithurgical</catDesc>
+</category>
+<category xml:id="CAT_type113">
+<catDesc>monastical</catDesc>
+</category>
+<category xml:id="CAT_type121">
+<catDesc>myth</catDesc>
+</category>
+<category xml:id="CAT_type114">
+<catDesc>patristic</catDesc>
+</category>
+<category xml:id="CAT_type65">
+<catDesc>prayer</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type103">
+<catDesc>Gnostic</catDesc>
+<category xml:id="CAT_type138">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type122">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type136">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type109">
+<catDesc>prayer</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type59">
+<catDesc>Islamic</catDesc>
+<category xml:id="CAT_type139">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type123">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type135">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type120">
+<catDesc>myth</catDesc>
+</category>
+<category xml:id="CAT_type66">
+<catDesc>prayer</catDesc>
+</category>
+<category xml:id="CAT_type60">
+<catDesc>Quranic</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type61">
+<catDesc>Jewish</catDesc>
+<category xml:id="CAT_type140">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type124">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type115">
+<catDesc>Hebrew Bible</catDesc>
+</category>
+<category xml:id="CAT_type134">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type119">
+<catDesc>myth</catDesc>
+</category>
+<category xml:id="CAT_type67">
+<catDesc>prayer</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type104">
+<catDesc>Manichaic</catDesc>
+<category xml:id="CAT_type141">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type125">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type133">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type107">
+<catDesc>prayer</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type101">
+<catDesc>Mesopotamian</catDesc>
+<category xml:id="CAT_type142">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type126">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type132">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type118">
+<catDesc>myth</catDesc>
+</category>
+<category xml:id="CAT_type108">
+<catDesc>prayer</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type102">
+<catDesc>polytheistic Aramaian</catDesc>
+<category xml:id="CAT_type143">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type127">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type131">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type117">
+<catDesc>myth</catDesc>
+</category>
+<category xml:id="CAT_type106">
+<catDesc>prayer</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type63">
+<catDesc>polytheistic Egyptian</catDesc>
+<category xml:id="CAT_type54">
+<catDesc>Book of the Dead</catDesc>
+</category>
+<category xml:id="CAT_type57">
+<catDesc>Coffin Text</catDesc>
+</category>
+<category xml:id="CAT_type144">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type128">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type58">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type116">
+<catDesc>myth</catDesc>
+</category>
+<category xml:id="CAT_type68">
+<catDesc>prayer</catDesc>
+</category>
+<category xml:id="CAT_type69">
+<catDesc>Pyramid Text</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type105">
+<catDesc>unclear religion</catDesc>
+<category xml:id="CAT_type145">
+<catDesc>commentary</catDesc>
+</category>
+<category xml:id="CAT_type129">
+<catDesc>eulogy</catDesc>
+</category>
+<category xml:id="CAT_type130">
+<catDesc>hymn</catDesc>
+</category>
+<category xml:id="CAT_type62">
+<catDesc>myth</catDesc>
+</category>
+<category xml:id="CAT_type64">
+<catDesc>prayer</catDesc>
+</category>
+</category>
+</category>
+<category xml:id="CAT_type88">
+<catDesc>scientific</catDesc>
+<category xml:id="CAT_type70">
+<catDesc>astrology</catDesc>
+<category xml:id="CAT_type71">
+<catDesc>horoscop</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type72">
+<catDesc>astronomy</catDesc>
+</category>
+<category xml:id="CAT_type97">
+<catDesc>commentary/gloss</catDesc>
+</category>
+<category xml:id="CAT_type73">
+<catDesc>math</catDesc>
+<category xml:id="CAT_type74">
+<catDesc>calculation</catDesc>
+</category>
+<category xml:id="CAT_type75">
+<catDesc>essay</catDesc>
+</category>
+<category xml:id="CAT_type76">
+<catDesc>geometry</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type77">
+<catDesc>medicine</catDesc>
+<category xml:id="CAT_type78">
+<catDesc>essay</catDesc>
+</category>
+<category xml:id="CAT_type79">
+<catDesc>prescription</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type100">
+<catDesc>nilometer</catDesc>
+</category>
+<category xml:id="CAT_type80">
+<catDesc>writing exercise</catDesc>
+</category>
+</category>
+<category xml:id="CAT_type82">
+<catDesc>(unidentified)</catDesc>
+</category>
+</taxonomy> <taxonomy xml:id="TAX_Lang">
+<category xml:id="akk">
+<catDesc>Akkadian</catDesc>
+</category>
+<category xml:id="ar">
+<catDesc>Arabic</catDesc>
+</category>
+<category xml:id="arc">
+<catDesc>Aramaic, Imperial</catDesc>
+</category>
+<category xml:id="egypt">
+<catDesc>Egyptian</catDesc>
+<category xml:id="cop">
+<catDesc>Coptic</catDesc>
+<category xml:id="cop-x-copa">
+<catDesc>Akhmimic</catDesc>
+</category>
+<category xml:id="cop-x-copb">
+<catDesc>Bohairic</catDesc>
+</category>
+<category xml:id="cop-x-copf">
+<catDesc>Fayumic</catDesc>
+</category>
+<category xml:id="cop-x-copm">
+<catDesc>Middle Egyptian / Oxyrhynkhitic</catDesc>
+</category>
+<category xml:id="cop-x-copo">
+<catDesc>Old Coptic</catDesc>
+</category>
+<category xml:id="cop-x-cops">
+<catDesc>Sahidic</catDesc>
+</category>
+<category xml:id="cop-x-copa2">
+<catDesc>Sub-Akhmimic</catDesc>
+</category>
+</category>
+<category xml:id="egy-x-dem">
+<catDesc>Demotic</catDesc>
+<category xml:id="egy-x-deme">
+<catDesc>Early Demotic</catDesc>
+</category>
+<category xml:id="egy-x-demep">
+<catDesc>Early Demotic - Ptolemaic Demotic</catDesc>
+</category>
+<category xml:id="egy-x-dempr">
+<catDesc>Ptolemaic - Roman Demotic</catDesc>
+</category>
+<category xml:id="egy-x-demp">
+<catDesc>Ptolemaic Demotic</catDesc>
+</category>
+<category xml:id="egy-x-demr">
+<catDesc>Roman Demotic</catDesc>
+</category>
+</category>
+<category xml:id="egy-x-egyl">
+<catDesc>Late Egyptian</catDesc>
+</category>
+<category xml:id="egy-x-egylr">
+<catDesc>Later Egyptian</catDesc>
+</category>
+<category xml:id="egy-x-egym">
+<catDesc>Middle Egyptian, Classical</catDesc>
+</category>
+<category xml:id="egy-x-egsp">
+<catDesc>Middle Egyptian, Late</catDesc>
+</category>
+<category xml:id="egy-x-egyn">
+<catDesc>Neo-Middle Egyptian</catDesc>
+</category>
+<category xml:id="egy-x-egyo">
+<catDesc>Old Egyptian</catDesc>
+</category>
+<category xml:id="egy">
+<catDesc>pre-Coptic Egyptian</catDesc>
+</category>
+<category xml:id="egy-x-egyp">
+<catDesc>Ptolemaic</catDesc>
+</category>
+</category>
+<category xml:id="egx">
+<catDesc>Egyptian languages</catDesc>
+</category>
+<category xml:id="en">
+<catDesc>English</catDesc>
+</category>
+<category xml:id="de">
+<catDesc>German</catDesc>
+</category>
+<category xml:id="grc">
+<catDesc>Greek, Ancient</catDesc>
+</category>
+<category xml:id="heb">
+<catDesc>Hebrew</catDesc>
+</category>
+<category xml:id="hbo">
+<catDesc>Hebrew, Ancient</catDesc>
+</category>
+<category xml:id="la">
+<catDesc>Latin</catDesc>
+</category>
+<category xml:id="xmr">
+<catDesc>Meroitic</catDesc>
+</category>
+<category xml:id="nolg">
+<catDesc>(none)</catDesc>
+</category>
+<category xml:id="unidentified">
+<catDesc>(not identified)</catDesc>
+</category>
+<category xml:id="nub">
+<catDesc>Nubian</catDesc>
+<category xml:id="onw">
+<catDesc>Old Nubian</catDesc>
+</category>
+</category>
+<category xml:id="peo">
+<catDesc>Old Persian</catDesc>
+</category>
+<category xml:id="pal">
+<catDesc>Pahlavi</catDesc>
+</category>
+<category xml:id="phn">
+<catDesc>Phoenician</catDesc>
+</category>
+<category xml:id="syr">
+<catDesc>Syriac</catDesc>
+</category>
+<category xml:id="unin">
+<catDesc>Uninscribed</catDesc>
+</category>
+</taxonomy> <taxonomy xml:id="TAX_Scripts">
+<category xml:id="Arab">
+<catDesc>Arabic</catDesc>
+</category>
+<category xml:id="Armi">
+<catDesc>Aramaic, Imperial</catDesc>
+</category>
+<category xml:id="Copt">
+<catDesc>Coptic</catDesc>
+<category xml:id="Copt-x-Coptcs">
+<catDesc>Coptic Cursive</catDesc>
+</category>
+<category xml:id="Copt-x-Copthu">
+<catDesc>Coptic Half-uncial</catDesc>
+</category>
+<category xml:id="Copt-x-Coptu">
+<catDesc>Coptic Uncial</catDesc>
+</category>
+</category>
+<category xml:id="Egy">
+<catDesc>Egyptian</catDesc>
+<category xml:id="Egyp-x-Egypcs">
+<catDesc>Cursive Hieroglyphs</catDesc>
+</category>
+<category xml:id="Egyd">
+<catDesc>Demotic</catDesc>
+<category xml:id="Egyd-x-Egydol">
+<catDesc>Early Demotic</catDesc>
+</category>
+<category xml:id="Egyd-x-Egydolmd">
+<catDesc>Early to Middle Demotic</catDesc>
+</category>
+<category xml:id="Egyd-x-Egydlt">
+<catDesc>Late Demotic</catDesc>
+</category>
+<category xml:id="Egyd-x-Egydmd">
+<catDesc>Middle Demotic</catDesc>
+</category>
+<category xml:id="Egyd-x-Egydmdlt ">
+<catDesc>Middle to Late Demotic</catDesc>
+</category>
+</category>
+<category xml:id="Egyh">
+<catDesc>Hieratic</catDesc>
+<category xml:id="Egyh-x-Egyhab">
+<catDesc>Abnormal Hieratic</catDesc>
+</category>
+<category xml:id="Egyh-x-Egyhar">
+<catDesc>Archaic Hieratic</catDesc>
+</category>
+<category xml:id="Egyh-x-Egyhlr">
+<catDesc>Late Hieratic</catDesc>
+<category xml:id="Egyh-x-Egyhlrb">
+<catDesc>"Späthieratische Buchschrift"</catDesc>
+</category>
+</category>
+<category xml:id="Egyh-x-Egyhmd">
+<catDesc>Middle Hieratic</catDesc>
+<category xml:id="Egyh-x-Egyhmdb">
+<catDesc>"Mittelhieratische Buchschrift"</catDesc>
+</category>
+<category xml:id="Egyh-x-Egyhmdc">
+<catDesc>"Mittelhieratische Kanzleischrift"</catDesc>
+</category>
+</category>
+<category xml:id="Egyh-x-Egyhlt">
+<catDesc>New Kingdom Hieratic</catDesc>
+<category xml:id="Egyh-x-Egyhltb">
+<catDesc>"Neuhieratische Buchschrift"</catDesc>
+</category>
+<category xml:id="Egyh-x-Egyhltc">
+<catDesc>"Neuhieratische Kanzleischrift"</catDesc>
+</category>
+</category>
+<category xml:id="Egyh-x-Egyhol">
+<catDesc>Old Hieratic</catDesc>
+</category>
+</category>
+<category xml:id="Egyp">
+<catDesc>Hieroglyphs</catDesc>
+<category xml:id="Egyp-x-Egypcr">
+<catDesc>Cryptography</catDesc>
+</category>
+<category xml:id="Egyp-x-Egyppt">
+<catDesc>Ptolemaic</catDesc>
+</category>
+</category>
+</category>
+<category xml:id="Grek">
+<catDesc>Greek</catDesc>
+</category>
+<category xml:id="Heb">
+<catDesc>Hebrew</catDesc>
+</category>
+<category xml:id="Latn">
+<catDesc>Latin</catDesc>
+</category>
+<category xml:id="Merc">
+<catDesc>Meroitic Cursive</catDesc>
+</category>
+<category xml:id="Mero">
+<catDesc>Meroitic Hieroglyphs</catDesc>
+</category>
+<category xml:id="noInschr">
+<catDesc>(none)</catDesc>
+</category>
+<category xml:id="Unidentified">
+<catDesc>(not identified)</catDesc>
+</category>
+<category xml:id="Phlv">
+<catDesc>Pahlavi</catDesc>
+</category>
+<category xml:id="Phnx">
+<catDesc>Phoenician</catDesc>
+</category>
+<category xml:id="Syrc">
+<catDesc>Syriac</catDesc>
+</category>
+<category xml:id="Notext">
+<catDesc>uninscribed</catDesc>
+</category>
+</taxonomy>
+</classDecl>
+</encodingDesc> <profileDesc>
+<textDesc>
+<channel/>
+<constitution type="single">
+</constitution>
+<derivation/>
+<domain/>
+<factuality/>
+<interaction/>
+<preparedness/>
+<purpose/>
+</textDesc>
+<langUsage>
+<language ident="arc-Armi"/>
+</langUsage>
+<textClass>
+<catRef target="#CAT_type19" scheme="TAX_Text_Type"/>
+</textClass>
+</profileDesc>
+<revisionDesc status="unfinished">
+<listChange>
+<change/>
+</listChange>
+</revisionDesc>
+</teiHeader><text>
+      <body>
+         <div type="edition">
+            <ab xml:lang="Armi arc"><pb n="R" /><lb n="1" rend="right-to-left" /><handShift cert="high" new="#m1" />אל <rs key="our lord" ref="ancient_titles.xml#id74" type="title">מר<damage>אנ</damage></rs><persName key="Bagohi" ref="ancient_persons.xml#p2880" role="non_royal"> בגו<damage degree="low">ה</damage>י</persName>
+               <rs key="official" ref="ancient_titles.xml#id88" type="title"><damage degree="low">פח</damage>ת</rs>
+               <placeName key="Judah" ref="places.xml#r53" type="region"><damage degree="low">יהוד</damage></placeName>
+               <rs key="servant" ref="ancient_titles.xml#id80" type="title">עב</rs><damage degree="low"><rs key="servant" ref="ancient_titles.xml#id80" type="title">ד</rs>י</damage>כ <persName key="Jedaniah" ref="ancient_persons.xml#p15015" role="non_royal">י</persName><damage degree="low"><persName key="Jedaniah" ref="ancient_persons.xml#p15015" role="non_royal">דניה</persName> ו<rs key="colleague" ref="ancient_titles.xml#id84" type="title">כנו</rs></damage><rs key="colleague" ref="ancient_titles.xml#id84" type="title">ת</rs>ה <rs key="priests" ref="ancient_titles.xml#id76" type="title">כהניא</rs> זי ב<placeName key="Elephantine" ref="places.xml#s3" type="settlement">יב</placeName> בי<damage>רתא</damage> שלמ<lb n="2" rend="right-to-left" /><rs key="our lord" ref="ancient_titles.xml#id74" type="title">מראנ</rs>
+               <rs key="God of Heaven" ref="ancient_titles.xml#id75" type="title">אלה שמיא</rs> ישאל שגיא בכל עדנ ולרחמנ ישימנכ קדמ <persName key="Darius" ref="ancient_persons.xml#k11220" role="royal">דריוהו<damage degree="low">ש</damage></persName>
+               <rs key="the king" ref="ancient_titles.xml#id85" type="title">מלכא</rs><lb n="3" rend="right-to-left" />ובני ביתא יתיר מנ זי כענ חד אלפ וחינ אריכנ ינתנ לכ וחדה ושריר הוי <damage>בכ</damage>ל עדנ<lb n="4" rend="right-to-left" />כענ <rs key="your servant" ref="ancient_titles.xml#id80" type="title">עבדכ</rs>
+               <persName key="Jedaniah" ref="ancient_persons.xml#p15015" role="non_royal">ידניה</persName> ו<rs key="colleague" ref="ancient_titles.xml#id84" type="title">כנות</rs>ה כנ אמרנ <del rend="erasure">_</del>בירח תמוז שנת 10 + 3 + 1 <persName key="Darius" ref="ancient_persons.xml#k11220" role="royal">דריוהוש</persName>
+               <rs key="the king" ref="ancient_titles.xml#id85" type="title">מלכא</rs> כזי <persName key="Arsames" ref="ancient_persons.xml#p2855" role="non_royal">ארשמ</persName><lb n="5" rend="right-to-left" />נפק ואזל על <rs key="the king" ref="ancient_titles.xml#id85" type="title">מלכא</rs>
+               <rs key="priests" ref="ancient_titles.xml#id99" type="title">כמריא</rs>
+               <add place="above">אלהא</add> זי <persName key="Khnub" ref="ancient_persons.xml#d11385" role="divine">חנוב</persName> זי ב<placeName key="Elephantine" ref="places.xml#s3" type="settlement">יב</placeName> בירתא המונית עמ <persName key="Vidranga" ref="ancient_persons.xml#p2885" role="non_royal">וידרנג</persName> זי <rs key="chief" ref="ancient_titles.xml#id100" type="title"><damage degree="high">פ</damage>רתרכ</rs> תנה<lb n="6" rend="right-to-left" />הוה למ אגורא זי <persName key="Yahu" ref="ancient_persons.xml#d11525" role="divine">יהו</persName> אלהא זי ב<placeName key="Elephantine" ref="places.xml#s3" type="settlement">יב</placeName> בירתא יהעדו מנ תמה אחר <persName key="Vidranga" ref="ancient_persons.xml#p2885" role="non_royal">ויד<damage degree="high">ר</damage>נג</persName> זכ<lb n="7" rend="right-to-left" />לחיא אגרת שלח על <persName key="Naphaina" ref="ancient_persons.xml#p2890" role="non_royal">נפינ</persName> ברה זי <rs key="garrison commander"
+                  ref="ancient_titles.xml#id77" type="title">רבחיל</rs> הוה ב<placeName key="Syene" ref="places.xml#s8" type="settlement">סונ</placeName> בירתא לאמר אגור<damage degree="low">א</damage> זי ב<placeName key="Elephantine" ref="places.xml#s3" type="settlement">יב</placeName><lb n="8" rend="right-to-left" />בירתא ינדשו אחר <persName key="Naphaina" ref="ancient_persons.xml#p2890" role="non_royal">נפינ</persName> דבר <orgName key="Egyptians" ref="peoples.xml#group1" type="group">מצריא</orgName> עמ חילא אחרננ אתו לבירת <placeName key="Elephantine" ref="places.xml#s3" type="settlement">יב</placeName> עמ תליהמ<lb n="9" rend="right-to-left" />עלו באגורא זכ נדשוהי עד ארעא ועמודיא זי אבנא זי הוו תמה תברו<add place="above">ה<damage>מו</damage></add>א<damage degree="high">פ</damage> הוה תרענ<lb n="10" rend="right-to-left" />זי אבנ 3 + 2 בנינ פסילה זי אבנ זי הוו באגורא זכ נדשו ודשיהמ קימנ <damage degree="low">ו</damage>ציריהמ<lb n="11" rend="right-to-left"
+                   />זי דששיא אלכ נחש ומטלל עקהנ<add place="above">זי</add> ארז כלא זי עמ שירית אשרנא ואחרנ זי תמה<lb n="12" rend="right-to-left" /><handShift cert="high" new="#m2" />הוה כלא באשה שרפו ומזרקיא זי זהבא וכספ <damage degree="low">ומנ</damage>דעמת<damage degree="low">א</damage> זי הוה באגורא ז<damage degree="high">כ</damage> כלא לקח<add place="above">ו</add><lb n="13" rend="right-to-left" />ולנפשהומ עבדו ומנ יומי <rs key="king" ref="ancient_titles.xml#id85" type="title">מלכ</rs>
+               <placeName key="Egypt" ref="places.xml#c1" type="country">מצרינ</placeName> אבהינ בנו אגורא זכ ב<placeName key="Elephantine" ref="places.xml#s3" type="settlement">יב</placeName> בירתא וכזי <persName key="Cambyses" ref="ancient_persons.xml#k11460" role="royal">כנבוזי</persName> על ל<placeName key="Egypt" ref="places.xml#c1" type="country">מצר<add place="above">ינ</add></placeName><lb n="14" rend="right-to-left" />אגורא זכ בנה השכחה ואגורי אלהי <placeName key="Egypt" ref="places.xml#c1" type="country">מצרינ</placeName> כל מגרו ואיש מנדע<damage degree="low">מ</damage> באגור<damage degree="low">א</damage> זכ לא חבל<lb n="15" rend="right-to-left" />וכזי כזנה עביד אנחנה עמ נשינ ובנינ שקקנ לבשנ הוינ וצימינ ומצלינ ל<persName key="Yahu" ref="ancient_persons.xml#d11525" role="divine">יה<damage degree="low">ו</damage></persName>
+               <rs key="lord of heaven" ref="ancient_titles.xml#id106" type="title">מרא שמיא</rs><lb n="16" rend="right-to-left" />זי החוינ ב<persName key="Vidranga" ref="ancient_persons.xml#p2885" role="non_royal">וידרנג</persName> זכ כלביא הנפקו כבלא מנ רגלוהי וכל נכסינ זי קנה אבדו וכל גברינ<lb n="17" rend="right-to-left" />זי בעו באיש לאגורא זכ כל קטילו וחזינ בהומ אפ קדמת זנה בעדנ זי זא באיש<add place="above">ת<damage degree="high">א</damage></add></ab>
+            <ab xml:lang="Armi arc"><pb n="V" /><lb n="vso1" rend="right-to-left" />עביד לנ אגרה שלחנ <rs key="our lord" ref="ancient_titles.xml#id74" type="title">מראנ</rs> ועל <persName key="Jehohanan" ref="ancient_persons.xml#p2900" role="non_royal">יהוחננ</persName>
+               <rs key="the high priest" ref="ancient_titles.xml#id107" type="title">כהנא רבא</rs> ו<rs key="colleagues" ref="ancient_titles.xml#id84" type="title">כנות</rs>ה <rs key="priests" ref="ancient_titles.xml#id76" type="title">כהניא</rs> זי ב<placeName key="Jerusalem" ref="places.xml#s72" type="settlement">ירושלמ</placeName> ועל <persName key="Ostanes" ref="ancient_persons.xml#p2905" role="non_royal">אוסתנ</persName> אחוה<add place="above">י</add><lb n="vso2" rend="right-to-left" />זי <persName key="Anani" ref="ancient_persons.xml#p2910" role="non_royal">ענני</persName> ו<rs key="nobles" ref="ancient_titles.xml#id108" type="title">חרי</rs>
+               <orgName key="Jews" ref="peoples.xml#group2" type="group">יהודיא</orgName> אגרה חדה לא שלחו עלינ אפ מנ ירח תמוז שנת 10 + 3 + 1 <persName key="Darius" ref="ancient_persons.xml#k11220" role="royal">דרי<damage degree="high">ה</damage>וש</persName>
+               <rs key="the king" ref="ancient_titles.xml#id85" type="title">מלכא</rs><lb n="vso3" rend="right-to-left" />וע<add place="above">ד</add>זנה יומא אנחנה שקקנ לבשנ וצימינ נשיא זילנ כארמלה עבידינ מש<damage degree="low">ח</damage> לא משחינ<lb n="vso4" rend="right-to-left" />וחמר לא שתינ אפ מנ זכי ועד יומ שנת 10 + 3 + 3 + 1 <persName key="Darius" ref="ancient_persons.xml#k11220" role="royal">דריהו</persName><damage degree="low"><persName key="Darius" ref="ancient_persons.xml#k11220" role="royal">ש </persName><rs key="the king" ref="ancient_titles.xml#id85" type="title">מ</rs></damage><rs key="the king" ref="ancient_titles.xml#id85" type="title">לכא</rs> מנחה ולבו<supplied cert="high" evidence="previouseditor" reason="lost">נ</supplied>ה ועלוה<lb n="vso5" rend="right-to-left" />לא עבדו באגורא זכ כענ <rs key="your servants" ref="ancient_titles.xml#id80" type="title">עבדיכ</rs>
+               <persName key="Jedaniah" ref="ancient_persons.xml#p15015" role="non_royal">ידניה</persName> ו<rs key="colleague" ref="ancient_titles.xml#id84" type="title">כנות</rs>ה ו<orgName key="Jews" ref="peoples.xml#group2" type="group">יהודיא</orgName> כל <rs key="resident" ref="ancient_titles.xml#id109" type="title">בעל</rs>י <placeName key="Elephantine" ref="places.xml#s3" type="settlement"><damage degree="low">י</damage>ב</placeName> כנ אמרי<add place="above">נ</add><lb n="vso6" rend="right-to-left" />הנ על <rs key="our lord" ref="ancient_titles.xml#id74" type="title">מראנ</rs> טב אתעשת על אגורא זכ למבנה בזי לא שבקנ לנ למבניה <damage degree="low">ח</damage>זי בעלי<lb n="vso7" rend="right-to-left" />טבתכ ורחמיכ <add place="above">זי</add> תנה ב<placeName key="Egypt" ref="places.xml#c1" type="country">מצרינ</placeName> אגרה מנכ ישתלח עליהומ על אגורא זי <persName key="Yahu" ref="ancient_persons.xml#d11525" role="divine">יה</persName><damage degree="low"><persName key="Yahu"
+                     ref="ancient_persons.xml#d11525" role="divine">ו</persName> א</damage>להא<lb n="vso8" rend="right-to-left" />למבניה ב<placeName key="Elephantine" ref="places.xml#s3" type="settlement">יב</placeName> בירתא לקבל זי בנה הוה קדמינ ומחתא ולבונתא ועלותא י<damage degree="high">ה</damage>קרבונ<lb n="vso9" rend="right-to-left" />על מדבחא זי <persName key="Yahu" ref="ancient_persons.xml#d11525" role="divine">יהו</persName> אלהא בשמכ ונצלה עליכ בכל עדנ אנחנה ונשינ ובני<damage degree="low">נ ו</damage><orgName key="Jews" ref="peoples.xml#group2" type="group">יהודיא</orgName><lb n="vso10" rend="right-to-left" />כל זי תנה הנ כנ עבדו עד זי אגורא זכ יתבנה וצדקה יהוה לכ קד<damage>מ</damage>
+               <persName key="Yahu" ref="ancient_persons.xml#d11525" role="divine">יהו</persName>
+               <rs key="God of Heaven" ref="ancient_titles.xml#id75" type="title">אלה<lb n="vso11" rend="right-to-left" />שמיא</rs> מנ גבר זי יקרב לה עלוה ודבחנ דמנ כדמי כספ כנכרינ 1 לפ ועל זהב על זנה<lb n="vso12" rend="right-to-left" />שלחנ הודענ אפ כלא מליא באגרה חדה שלחנ <add place="above">בשמנ</add> על <persName key="Delaiah" ref="ancient_persons.xml#p2915" role="non_royal">דליה</persName> ו<persName key="Shelemiah " ref="ancient_persons.xml#p2920" role="non_royal">שלמיה</persName> בני סנאבל<damage>ט</damage> פ<add place="above"><damage degree="low">ח</damage></add>ת <placeName key="Samaria" ref="places.xml#r54" type="region">שמרינ</placeName><lb n="vso13" rend="right-to-left" />אפ בזנה זי עביד לנ <add place="above">כלא</add>
+               <persName key="Arsames" ref="ancient_persons.xml#p2855" role="non_royal">ארשנ</persName> לא ידע <damage>ב20 למ</damage>רחשונ שנת 10 + 3 + 3 + 1 <persName key="Darius" ref="ancient_persons.xml#k11220" role="royal">דריה</persName><damage><persName key="Darius" ref="ancient_persons.xml#k11220" role="royal">וש</persName>
+                  <rs key="the king" ref="ancient_titles.xml#id85" type="title">מל</rs></damage><rs key="the king" ref="ancient_titles.xml#id85" type="title">כא</rs></ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab xml:lang=" en">
+               <pb n="R" /><lb n="1" rend="left-to-right" />To our lord Bagohi governor of Judah, your servants Jedaniah and his colleagues the priests who are in Elephantine the fortress. The welfare of<lb n="2" rend="left-to-right" />our lord may the God of Heaven seek after abundantly at all times, and grant you favor before King Darius<lb n="3" rend="left-to-right" />and the sons of his house a thousand tiems more than now, and give you long life, and may you be happy and strong at all times.<lb n="4" rend="left-to-right" />Now, your servant Jedaniah and his colleagues say thus: In the month of Tammuz, year 14 of King Darius, when Arsames <lb n="5" rend="left-to-right" />had departed and gone to the king, the priests of Khnub the god who are in Elephantine the fortress, in agreement with Vidranga who (was) Chief here,<lb n="6" rend="left-to-right" />saying, "Let them remove from there the Temple of YHW the God which is in Elephantine the fortress." Then, that Vidranga, <lb n="7"
+                  rend="left-to-right" />the wicked, sent a letter to Naphaina his son, who was garrison commander in Syene the fortress, saying, <lb n="8" rend="left-to-right" />"Let them demolish (the Temple which is in Elephantine) the fortress." Then, Naphaina let the Eygptians with the other troops. They came to the fortress of Elephantine with their weapons, <lb n="9" rend="left-to-right" />broke into that Temple, demolished it to the ground, and the stone pillars which were there - they smashed them. Moreover, it happened (that)<lb n="10" rend="left-to-right" />they demolished 5 stone (gateways) built of hewn stone, which were in that Temple. And their standing doors, and <lb n="11" rend="left-to-right" />the bronze (hinges) of those doors, and the cedarwood roof - all of (these) which, with the rest of the fittings and other (things), which <lb n="12" rend="left-to-right"
+                   />were (there) - all (of these) they burned with fire. But the gold and silver basins and (other) things which were in that Temple - all (of these) they took<lb n="13" rend="left-to-right" />and made their own. And during the days of the king(s) of Egypt our fathers had built that Temple in Elephantine the fortress and when Cambyses entered Egypt<lb n="14" rend="left-to-right" />he found that Temple built. And they overthrew the temples of the gods of Egypt, all (of them), but one did not damage anything in that Temple.<lb n="15" rend="left-to-right" />And when this had been done (to us), we with our wives and our children were wearing sackcloth and fasting and praying to YHW the Lord of Heaven<lb n="16" rend="left-to-right" />who let us gloat over that Vidranga. The dogs removed the fetter from his feet and all goods which he had acquired were lost. And all persons<lb n="17" rend="left-to-right"
+                />who sought evil for that Temple, all (of them), were killed and we gazed upon them. Moreover, before this - at the time that this evil</ab>
+            <ab xml:lang=" en">
+               <pb n="V" /><lb n="vso1" rend="left-to-right" />was done to us - we sent a letter (to) our lord, and to Jehohanan the High Priest and his colleagues the priests who are in Jerusalem, and to Ostanes the brother<lb n="vso2" rend="left-to-right" />of Anani and the nobles of the Jews. They did not send us a single letter. Moreover, from the month of Tammuz, year 14 of King Darius<lb n="vso3" rend="left-to-right" />and until this day we are wearing sackcloth and fasting; our wives are made as widow(s); (we) do not anoint (ourselves) with oil<lb n="vso4" rend="left-to-right" />and do not drink wine. Moreover, from that (time) and until (this) day, year 17 of King Darius<lb n="vso5" rend="left-to-right" />they did not make (meal-offering and ince[n]se and holocaust) in that Temple. Now, your servants Jedaniah and his colleagues and the Jews, all (of them) citizens of Elephantine, say thus:<lb n="vso6" rend="left-to-right"
+                   />If it please our lord, take thought of that Temple to (re)build (it) since they do not let us (re)build it. Regard<lb n="vso7" rend="left-to-right" />your (community members) and your friends who are here in Egypt. Let a letter be sent from you to them about the Temple of YHW the God<lb n="vso8" rend="left-to-right" />to (re)build it in Elephantine the fortress just as it was formerly built. And they will offer the meal-offering and the incense, and the holocaust<lb n="vso9" rend="left-to-right" />on the altar of YHW the God in your name and we shall pray for you at all times - we and our wives and our children and the Jews,<lb n="vso10" rend="left-to-right" />all (of them) who are here. If they do thus until that Temple be (re)built, you will have a merit before YHW the God of <lb n="vso11" rend="left-to-right"
+                   />Heaven more than a person who offers him holocaust and sacrifices (whose) worth is as the worth of silver, 1 thousand talents and [about] gold. Because of this<lb n="vso12" rend="left-to-right" />we have sent (and) informed (you). Moreover, we sent in our name all the(se) words in one letter to Delaiah and Shelemiah sons of Sanballat governor of Samaria.<lb n="vso13" rend="left-to-right" />Moreover, Arsames did not know about any of this which was done to us. On the 20th of Marheshvan, year 17 of King Darius.</ab>
+         </div>
+      </body>
+   </text></TEI>

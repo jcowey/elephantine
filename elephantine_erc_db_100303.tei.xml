@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://elephantine.smb.museum/tei/css/tei_oxygen_ERC_elephantine.css"?>
+<!DOCTYPE TEI
+  SYSTEM "http://elephantine.smb.museum/tei/css/tei_all.dtd">
+<TEI xml:id="elephantine_erc_db_100303" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pap. Berlin P. 23094, a-b</title>
+            <editor>Verena M. Lepper</editor>
+            <respStmt>
+               <resp>Artefact metadata:</resp>
+               <persName>D. Werning, M. Müller</persName>
+            </respStmt>
+            <respStmt>
+               <resp>TEI encoding:</resp>
+               <persName>Daniel A. Werning</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ägyptisches Museum und Papyrussammlung, Berlin</publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date when="2015-12-10" />
+            <idno>v1.1</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">Licence for this TEI document: Creative Commons, Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <settlement>Berlin</settlement>
+                  <institution>Staatliche Museen zu Berlin</institution>
+                  <repository>Ägyptisches Museum und Papyrussammlung</repository>
+                  <collection>Papyrussammlung</collection>
+                  <idno>Berlin P. 23094, a-b</idno>
+                  <msName>Pap. Berlin P. 23094, a-b</msName>
+                  <altIdentifier>
+                     <idno />
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno />
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno />
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Vorderseite unklar, ob medizinisch oder andere Textsorte
+Rückseite dokumentarisch </summary>
+                  <msItem xml:id="RDB_TXT100303">
+                     <locus>Recto</locus>
+                     <author />
+                     <title type="antik" />
+                     <title type="modern" />
+                     <textLang mainLang="egy-egylr-Egyh-Egyhlrb" />
+                     <linkGrp type="andere_Texte_auf_Texttraeger">
+                        <link />
+                        <link />
+                        <link />
+                        <link />
+                        <link />
+                     </linkGrp>
+                     <note />
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc xml:id="RDB_TR100303">
+                        <support>
+                           <dimensions>
+                              <height />
+                              <depth />
+                              <width />
+                           </dimensions>
+                           <material style="color:papyrusfarben">Papyrus<certainty assertedValue="material" locus="value" />
+                              <note />
+                           </material>
+                           <objectType>Papyrus</objectType>
+                           <origDate>
+                              <date />
+                              <certainty locus="value">
+                                 <desc />
+                              </certainty>
+                           </origDate>
+                           <note>Fragmente passen nicht direkt an</note>
+                        </support>
+                        <condition>
+                           <list>
+                              <item>Textträgerzustand: <measure>fragmentarisch</measure>
+                                 <desc>Fragmente</desc>
+                              </item>
+                              <item>Textzustand: <measure />
+                                 <desc />
+                              </item>
+                           </list>
+                           <join type="Joints">
+                              <desc />
+                           </join>
+                           <note />
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="7">
+                           <height scope="columns" />
+                           <width scope="rows" />
+                           <note>a) 3 b) 4 Z.</note>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribeRef="#scribe">Flüssige Handschrift; zu wenig Text um zu entscheiden, ob Sprache Neuägyptisch oder Demotisch</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote />
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote />
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>
+                        <date notAfter="-332" notBefore="-664">Spätzt oder Frühptolem.</date>
+                        <certainty locus="value">
+                           <desc />
+                        </certainty>
+                     </origDate>
+                     <origPlace>
+                        <country />
+                        <region />
+                        <settlement />
+                     </origPlace>
+                  </origin>
+                  <provenance type="archaeologische_Ausgrabung">
+                     <date />
+                     <affiliation />
+                     <persName role="Finder">Rubensohn, Otto / Zucker, Friedrich (Grabungsleiter)</persName>
+                     <location>
+                        <country>Ägypten</country>
+                        <region>Oberägypten, 01. Gau</region>
+                        <settlement>Elephantine</settlement>
+                        <note />
+                     </location>
+                  </provenance>
+                  <acquisition>
+                     <date />
+                     <location>
+                        <country />
+                        <region />
+                        <settlement />
+                     </location>
+                     <desc>Blechkiste 110,3</desc>
+                     <listPerson>
+                        <person>
+                           <persName role="Käufer" />
+                           <persName role="Verkäufer" />
+                        </person>
+                     </listPerson>
+                     <note>Grabung Rubensohn-Zucker, aus Blechkiste 110,3</note>
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability>
+                        <licence />
+                        <ab>
+                           <location>
+                              <note />
+                           </location>
+                           <desc />
+                        </ab>
+                     </availability>
+                     <custodialHist>
+                        <custEvent />
+                        <custEvent />
+                        <custEvent />
+                     </custodialHist>
+                     <note />
+                  </adminInfo>
+                  <surrogates>
+                     <list>
+                        <item>
+                           <graphic url="http://elephantine.smb.museum/bilder/fullsize/P_23094_R-Handphoto.jpg" />
+                        </item>
+                        <item>
+                           <graphic url="http://elephantine.smb.museum/bilder/fullsize/P_23094_V-Handphoto.jpg" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item>
+                           <graphic url="" />
+                        </item>
+                        <item />
+                     </list>
+                  </surrogates>
+                  <listBibl>
+                     <bibl>Günter Burkard &amp; Hans-Werner Fischer-Elfert, Ägyptische Handschriften, Verzeichnis orientalischer Handschriften in Deutschland XIX.4, Stuttgart 1994, 230–231 Kat.-Nr. 342 [Beschr]</bibl>
+                     <bibl />
+                     <bibl />
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                     <bibl>
+                        <ref type="url" />
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <listPerson>
+               <personGrp xml:id="scribe" />
+            </listPerson>
+            <listPerson type="im_Text_erwähnte">
+               <personGrp />
+            </listPerson>
+            <listPlace type="im_Text_erwähnte">
+               <place />
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="TAX_Textgattung">
+               <category xml:id="CAT_andere">
+                  <catDesc>(andere/varia)</catDesc>
+               </category>
+               <category xml:id="CAT_dokumentarisch">
+                  <catDesc>dokumentarisch</catDesc>
+               </category>
+               <category xml:id="CAT_Abrechnung">
+                  <catDesc>dokumentarisch | Abrechnung</catDesc>
+               </category>
+               <category xml:id="CAT_Abrechnunghoch">
+                  <catDesc>dokumentarisch | Abrechnung (Hochformat)</catDesc>
+               </category>
+               <category xml:id="CAT_administrativ">
+                  <catDesc>dokumentarisch | administratives Dokument</catDesc>
+               </category>
+               <category xml:id="CAT_Angebot">
+                  <catDesc>dokumentarisch | Angebot</catDesc>
+               </category>
+               <category xml:id="CAT_Brief">
+                  <catDesc>dokumentarisch | Brief</catDesc>
+               </category>
+               <category xml:id="CAT_Briefhoch">
+                  <catDesc>dokumentarisch | Brief (Hochformat)</catDesc>
+               </category>
+               <category xml:id="CAT_Briefquer">
+                  <catDesc>dokumentarisch | Brief (Querformat)</catDesc>
+               </category>
+               <category xml:id="CAT_Briefhochquer">
+                  <catDesc>dokumentarisch | Brief (Transversa Carta)</catDesc>
+               </category>
+               <category xml:id="CAT_BriefUrk">
+                  <catDesc>dokumentarisch | Brief (Urkundenformat)</catDesc>
+               </category>
+               <category xml:id="CAT_Eid">
+                  <catDesc>dokumentarisch | Eid</catDesc>
+               </category>
+               <category xml:id="CAT_Eidhoch">
+                  <catDesc>dokumentarisch | Eid (Hochformat)</catDesc>
+               </category>
+               <category xml:id="CAT_Hypomnema">
+                  <catDesc>dokumentarisch | Hypomnema</catDesc>
+               </category>
+               <category xml:id="CAT_Hypomnemahoch">
+                  <catDesc>dokumentarisch | Hypomnema (Hochformat)</catDesc>
+               </category>
+               <category xml:id="CAT_juristisch">
+                  <catDesc>dokumentarisch | juristisches Dokument</catDesc>
+               </category>
+               <category xml:id="CAT_Liste">
+                  <catDesc>dokumentarisch | Liste</catDesc>
+               </category>
+               <category xml:id="CAT_Namensliste">
+                  <catDesc>dokumentarisch | Liste | Namensliste</catDesc>
+               </category>
+               <category xml:id="CAT_Onomastikon">
+                  <catDesc>dokumentarisch | Liste | Onomastikon</catDesc>
+               </category>
+               <category xml:id="CAT_Produktliste">
+                  <catDesc>dokumentarisch | Liste | Produktliste</catDesc>
+               </category>
+               <category xml:id="CAT_mathematisch">
+                  <catDesc>dokumentarisch | mathematischer Algorithmus</catDesc>
+               </category>
+               <category xml:id="CAT_medizinisch">
+                  <catDesc>dokumentarisch | medizinisches Rezept</catDesc>
+               </category>
+               <category xml:id="CAT_Name">
+                  <catDesc>dokumentarisch | Namensnennung</catDesc>
+               </category>
+               <category xml:id="CAT_Notiz">
+                  <catDesc>dokumentarisch | Notiz</catDesc>
+               </category>
+               <category xml:id="CAT_Quittung">
+                  <catDesc>dokumentarisch | Quittung</catDesc>
+               </category>
+               <category xml:id="CAT_Abgabenquittung">
+                  <catDesc>dokumentarisch | Quittung | Abgaben/Steuern</catDesc>
+               </category>
+               <category xml:id="CAT_Rechnung">
+                  <catDesc>dokumentarisch | Rechnung</catDesc>
+               </category>
+               <category xml:id="CAT_Schreibübung">
+                  <catDesc>dokumentarisch | Schreibübung</catDesc>
+               </category>
+               <category xml:id="CAT_Schulübung">
+                  <catDesc>dokumentarisch | Schulübung</catDesc>
+               </category>
+               <category xml:id="CAT_Testament">
+                  <catDesc>dokumentarisch | Testament</catDesc>
+               </category>
+               <category xml:id="CAT_Vertrag">
+                  <catDesc>dokumentarisch | Vertrag</catDesc>
+               </category>
+               <category xml:id="CAT_Vertraghoch">
+                  <catDesc>dokumentarisch | Vertrag (Hochformat)</catDesc>
+               </category>
+               <category xml:id="CAT_Vertragquer">
+                  <catDesc>dokumentarisch | Vertrag (Querformat)</catDesc>
+               </category>
+               <category xml:id="CAT_halbliterarisch">
+                  <catDesc>halbliterarisch</catDesc>
+               </category>
+               <category xml:id="CAT_KeineAufschrift">
+                  <catDesc>(Keine Aufschrift)</catDesc>
+               </category>
+               <category xml:id="CAT_literarisch">
+                  <catDesc>literarisch</catDesc>
+               </category>
+               <category xml:id="CAT_Biographie">
+                  <catDesc>literarisch | Biographie</catDesc>
+               </category>
+               <category xml:id="CAT_Erzählung">
+                  <catDesc>literarisch | Erzählung</catDesc>
+               </category>
+               <category xml:id="CAT_Gedicht">
+                  <catDesc>literarisch | Gedicht</catDesc>
+               </category>
+               <category xml:id="CAT_Klage">
+                  <catDesc>literarisch | Klage</catDesc>
+               </category>
+               <category xml:id="CAT_Lehre">
+                  <catDesc>literarisch | Lehre</catDesc>
+               </category>
+               <category xml:id="CAT_Eulogie">
+                  <catDesc>literarisch/religös-literarisch | Eulogie</catDesc>
+               </category>
+               <category xml:id="CAT_Litanei">
+                  <catDesc>literarisch/religös-literarisch | Litanei</catDesc>
+               </category>
+               <category xml:id="CAT_Astronomie">
+                  <catDesc>religiös-dokumentarisch | Astronomischer Text</catDesc>
+               </category>
+               <category xml:id="CAT_Divination">
+                  <catDesc>religiös-dokumentarisch | Divination</catDesc>
+               </category>
+               <category xml:id="CAT_Horoskop">
+                  <catDesc>religiös-dokumentarisch | Horoskop</catDesc>
+               </category>
+               <category xml:id="CAT_magisch">
+                  <catDesc>religiös-dokumentarisch | magisch</catDesc>
+               </category>
+               <category xml:id="CAT_Orakelfrage">
+                  <catDesc>religiös-dokumentarisch | Orakelfrage</catDesc>
+               </category>
+               <category xml:id="CAT_Ritual">
+                  <catDesc>religiös-dokumentarisch | Ritual</catDesc>
+               </category>
+               <category xml:id="CAT_religioes">
+                  <catDesc>religiös-literarisch</catDesc>
+               </category>
+               <category xml:id="CAT_christlich">
+                  <catDesc>religiös-literarisch | christlich</catDesc>
+               </category>
+               <category xml:id="CAT_Bibel">
+                  <catDesc>religiös-literarisch | christlich | Bibeltext</catDesc>
+               </category>
+               <category xml:id="CAT_Gebet">
+                  <catDesc>religiös-literarisch | Gebet</catDesc>
+               </category>
+               <category xml:id="CAT_Hymnus">
+                  <catDesc>religiös-literarisch | Hymnus</catDesc>
+               </category>
+               <category xml:id="CAT_Mythos">
+                  <catDesc>religiös-literarisch | Mythos</catDesc>
+               </category>
+               <category xml:id="CAT_Spruch">
+                  <catDesc>religiös-literarisch | Spruch</catDesc>
+               </category>
+               <category xml:id="CAT_Totenbuchspruch">
+                  <catDesc>religiös-literarisch | Spruch | Totenbuchspruch</catDesc>
+               </category>
+               <category xml:id="CAT_unbestimmt">
+                  <catDesc>(unbestimmt)</catDesc>
+               </category>
+               <category xml:id="CAT_varia">
+                  <catDesc>(varia)</catDesc>
+               </category>
+               <category xml:id="CAT_Zeichnung">
+                  <catDesc>Zeichnung / Dekoration</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="TAX_Sprachcodes">
+               <category xml:id="egy-egyor">
+                  <catDesc>Ägyptisch | Älteres Ägyptisch</catDesc>
+               </category>
+               <category xml:id="egy-egyo">
+                  <catDesc>Ägyptisch | Altägyptisch</catDesc>
+               </category>
+               <category xml:id="egy-dem">
+                  <catDesc>Ägyptisch | Demotisch</catDesc>
+               </category>
+               <category xml:id="egy-deme">
+                  <catDesc>Ägyptisch | Demotisch | Frühdemotisch</catDesc>
+               </category>
+               <category xml:id="egy-demep">
+                  <catDesc>Ägyptisch | Demotisch | Frühdemotisch bis ptolemäisches Demotisch</catDesc>
+               </category>
+               <category xml:id="egy-dempr">
+                  <catDesc>Ägyptisch | Demotisch | ptolemäisches bis römisches Demotisch</catDesc>
+               </category>
+               <category xml:id="egy-demp">
+                  <catDesc>Ägyptisch | Demotisch | ptolemäisches Demotisch</catDesc>
+               </category>
+               <category xml:id="egy-demr">
+                  <catDesc>Ägyptisch | Demotisch | römisches Demotisch</catDesc>
+               </category>
+               <category xml:id="egy-egyn">
+                  <catDesc>Ägyptisch | Égyptien de tradition / Neo-Mittelägyptisch</catDesc>
+               </category>
+               <category xml:id="egy-egylr">
+                  <catDesc>Ägyptisch | Jüngeres Ägyptisch</catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc>Ägyptisch | Koptisch</catDesc>
+               </category>
+               <category xml:id="cop-copa">
+                  <catDesc>Ägyptisch | Koptisch | Achmimisch</catDesc>
+               </category>
+               <category xml:id="cop-copo">
+                  <catDesc>Ägyptisch | Koptisch | Altkoptisch</catDesc>
+               </category>
+               <category xml:id="cop-copb">
+                  <catDesc>Ägyptisch | Koptisch | Bohairisch</catDesc>
+               </category>
+               <category xml:id="cop-copf">
+                  <catDesc>Ägyptisch | Koptisch | Fajumisch</catDesc>
+               </category>
+               <category xml:id="cop-copm">
+                  <catDesc>Ägyptisch | Koptisch | Mittelägyptisch / Oxyrhynchitisch</catDesc>
+               </category>
+               <category xml:id="cop-cops">
+                  <catDesc>Ägyptisch | Koptisch | Sahidisch</catDesc>
+               </category>
+               <category xml:id="cop-copa2">
+                  <catDesc>Ägyptisch | Koptisch | Subachmimisch / Lykopolitanisch</catDesc>
+               </category>
+               <category xml:id="egy-egym">
+                  <catDesc>Ägyptisch | Mittelägyptisch | Klassisch</catDesc>
+               </category>
+               <category xml:id="egy-egsp">
+                  <catDesc>Ägyptisch | Mittelägyptisch | Spätmittelägyptisch</catDesc>
+               </category>
+               <category xml:id="egy-egyl">
+                  <catDesc>Ägyptisch | Neuägyptisch</catDesc>
+               </category>
+               <category xml:id="egy-egyp">
+                  <catDesc>Ägyptisch | Ptolemäisch</catDesc>
+               </category>
+               <category xml:id="egy">
+                  <catDesc>Ägyptisch | vorkoptisches Ägyptisch</catDesc>
+               </category>
+               <category xml:id="egx">
+                  <catDesc>Ägyptisch-Koptisch</catDesc>
+               </category>
+               <category xml:id="akk">
+                  <catDesc>Akkadisch</catDesc>
+               </category>
+               <category xml:id="ar">
+                  <catDesc>Arabisch</catDesc>
+               </category>
+               <category xml:id="arc">
+                  <catDesc>Aramäisch, Imperiales</catDesc>
+               </category>
+               <category xml:id="de">
+                  <catDesc>Deutsch</catDesc>
+               </category>
+               <category xml:id="en">
+                  <catDesc>Englisch</catDesc>
+               </category>
+               <category xml:id="grc">
+                  <catDesc>Griechisch, Antik</catDesc>
+               </category>
+               <category xml:id="hbo">
+                  <catDesc>Hebräisch, Antik</catDesc>
+               </category>
+               <category xml:id="la">
+                  <catDesc>Lateinisch</catDesc>
+               </category>
+               <category xml:id="xmr">
+                  <catDesc>Meroitisch</catDesc>
+               </category>
+               <category xml:id="unidentified">
+                  <catDesc>(nicht identifiziert)</catDesc>
+               </category>
+               <category xml:id="nub">
+                  <catDesc>Nubisch</catDesc>
+               </category>
+               <category xml:id="nbw">
+                  <catDesc>Nubisch | Altnubisch</catDesc>
+               </category>
+               <category xml:id="phn">
+                  <catDesc>Phönizisch</catDesc>
+               </category>
+               <category xml:id="syr">
+                  <catDesc>Syrisch</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="TAX_Schriftcodes">
+               <category xml:id="Egyd">
+                  <catDesc>Ägyptisch | Demotisch</catDesc>
+               </category>
+               <category xml:id="Egyd-Egydol">
+                  <catDesc>Ägyptisch | Demotisch | Frühdemotisch</catDesc>
+               </category>
+               <category xml:id="Egyd-Egydolmd">
+                  <catDesc>Ägyptisch | Demotisch | Frühdemotisch bis Mitteldemotisch</catDesc>
+               </category>
+               <category xml:id="Egyd-Egydmd">
+                  <catDesc>Ägyptisch | Demotisch | Mitteldemotisch</catDesc>
+               </category>
+               <category xml:id="Egyd-Egydmdlt">
+                  <catDesc>Ägyptisch | Demotisch | Mitteldemotisch bis Spätdemotisch</catDesc>
+               </category>
+               <category xml:id="Egyd-Egydlt">
+                  <catDesc>Ägyptisch | Demotisch | Spätdemotisch</catDesc>
+               </category>
+               <category xml:id="Egyh">
+                  <catDesc>Ägyptisch | Hieratisch</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhab">
+                  <catDesc>Ägyptisch | Hieratisch | Abnormhieratisch</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhol">
+                  <catDesc>Ägyptisch | Hieratisch | Althieratisch</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhar">
+                  <catDesc>Ägyptisch | Hieratisch | Archaisches Hieratisch</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhmd">
+                  <catDesc>Ägyptisch | Hieratisch | Mittelhieratisch</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhmdb">
+                  <catDesc>Ägyptisch | Hieratisch | Mittelhieratisch | Mittelhieratische Buchschrift</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhmdc">
+                  <catDesc>Ägyptisch | Hieratisch | Mittelhieratisch | Mittelhieratische Kanzleischrift</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhlt">
+                  <catDesc>Ägyptisch | Hieratisch | Neuhieratisch</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhltb">
+                  <catDesc>Ägyptisch | Hieratisch | Neuhieratisch | Neuhieratische Buchschrift</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhltc">
+                  <catDesc>Ägyptisch | Hieratisch | Neuhieratisch | Neuhieratische Kanzleischrift</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhlr">
+                  <catDesc>Ägyptisch | Hieratisch | Späthieratisch</catDesc>
+               </category>
+               <category xml:id="Egyh-Egyhlrb">
+                  <catDesc>Ägyptisch | Hieratisch | Späthieratisch | Späthieratische Buchschrift</catDesc>
+               </category>
+               <category xml:id="Egyp">
+                  <catDesc>Ägyptisch | Hieroglyphen</catDesc>
+               </category>
+               <category xml:id="Egyp-Egypcr">
+                  <catDesc>Ägyptisch | Hieroglyphen | kryptographische Verwendung</catDesc>
+               </category>
+               <category xml:id="Egyp-Egyppt">
+                  <catDesc>Ägyptisch | Hieroglyphen | Ptolemäisch</catDesc>
+               </category>
+               <category xml:id="Egyp-Egypreg">
+                  <catDesc>Ägyptisch | Hieroglyphen, klassische</catDesc>
+               </category>
+               <category xml:id="Egyp-Egypcs">
+                  <catDesc>Ägyptisch | Kursivhieroglyphen</catDesc>
+               </category>
+               <category xml:id="Arab">
+                  <catDesc>Arabisch</catDesc>
+               </category>
+               <category xml:id="Armi">
+                  <catDesc>Aramäisch, Imperial</catDesc>
+               </category>
+               <category xml:id="Grek">
+                  <catDesc>Griechisch</catDesc>
+               </category>
+               <category xml:id="Copt">
+                  <catDesc>Koptisch</catDesc>
+               </category>
+               <category xml:id="Copt-Copthu">
+                  <catDesc>Koptisch | Koptische Halbunziale</catDesc>
+               </category>
+               <category xml:id="Copt-Coptcs">
+                  <catDesc>Koptisch | Koptische Kursive</catDesc>
+               </category>
+               <category xml:id="Copt-Coptu">
+                  <catDesc>Koptisch | Koptische Unziale</catDesc>
+               </category>
+               <category xml:id="Latn">
+                  <catDesc>Lateinisch</catDesc>
+               </category>
+               <category xml:id="Mero">
+                  <catDesc>Meroitische Hieroglyphen</catDesc>
+               </category>
+               <category xml:id="Merc">
+                  <catDesc>Meroitische Kursive</catDesc>
+               </category>
+               <category xml:id="Unidentified">
+                  <catDesc>(nicht identifiziert)</catDesc>
+               </category>
+               <category xml:id="Pho">
+                  <catDesc>Phönizisch</catDesc>
+               </category>
+               <category xml:id="Syrc">
+                  <catDesc>Syrisch</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textDesc>
+            <channel />
+            <constitution type="frags">fragmentierter Textträger, nicht kompletter Text</constitution>
+            <derivation />
+            <domain />
+            <factuality />
+            <interaction />
+            <preparedness />
+            <purpose />
+         </textDesc>
+         <langUsage>
+            <language ident="egy-egylr-Egyh-Egyhlrb" />
+            <language ident="" />
+            <language ident="" />
+         </langUsage>
+         <textClass>
+            <catRef scheme="TAX_Textgattung" target="#CAT_dokumentarisch" />
+            <catRef scheme="TAX_Textgattung" target="#CAT_dokumentarisch" />
+            <catRef scheme="TAX_Textgattung" />
+            <keywords>
+               <term />
+               <term />
+               <term />
+               <term />
+               <term />
+               <term />
+               <term />
+               <term />
+               <term />
+               <term />
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="vollständig / zu überprüfen">
+         <listChange>
+            <change>18.12.2012; Jan Moje; Rohdaten in Excel</change>
+            <change>28.12.2012; Daniel Werning; Import der Daten von J. Moje</change>
+            <change>25.07.2014; Matthias Müller; Vervollständigung</change>
+            <change>21.08.2014, Daniel Werning; Scandateinamen hinzugefügt</change>
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+            <change />
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition">
+            <ab n="Frg. a" xml:lang="Egyh-Egyhlr egy">
+               <pb n="R" />
+               <lb n="x+1" rend="right-to-left" /><gap extent="unknown" reason="lost" /><lb n="x+2" rend="right-to-left" /><gap extent="unknown" reason="lost" />
+               <note>The determinative Gardiner Sign G54 is preserved.</note> r <gap extent="unknown" reason="lost" /><lb n="x+3" rend="right-to-left" /><gap extent="unknown" reason="lost" />=f jb <note>The determinative is lost.</note>
+               <gap extent="unknown" reason="lost" /><lb n="x+4" rend="right-to-left" /><gap extent="unknown" reason="lost" /> pꜣ <unclear reason="execution">ꜥꜣ</unclear> nṯr.w <gap extent="unknown" reason="lost" /><lb n="x+5" rend="right-to-left" /><gap extent="unknown" reason="lost" /></ab>
+            <ab n="Frg. b" xml:lang="Egyh-Egyhlr egy">
+               <pb n="R" />
+               <lb n="x+1" rend="right-to-left" /><gap extent="unknown" reason="lost" /><lb n="x+2" rend="right-to-left" /><gap extent="unknown" reason="lost" /> n.w qmꜣ <note>The determinative is lost.</note>
+               <gap extent="unknown" reason="lost" /><lb n="x+3" rend="right-to-left" /><gap extent="unknown" reason="lost" /> m sp tp <gap extent="unknown" reason="lost" /><lb n="x+4" rend="right-to-left" /><gap extent="unknown" reason="lost" />.w tp=f <gap extent="unknown" reason="lost" /><lb n="x+5" rend="right-to-left" /><gap extent="unknown" reason="lost" />
+               <hi rend="red">sp-sn ḥr qmꜣ</hi>
+               <note>The determinative is lost.</note>
+               <gap extent="unknown" reason="lost" /></ab>
+            <ab n="Frg. b" xml:lang="Egyh egy">
+               <pb n="V" />
+               <note>Few signs of two lines are preserved.</note>
+            </ab>
+         </div>
+         <div type="translation" xml:lang="en">
+            <ab n="Frg. a" xml:lang=" en">
+               <pb n="R" />
+               <lb n="x+1" rend="left-to-right" />[///]<lb n="x+2" rend="left-to-right" />[///]<lb n="x+3" rend="left-to-right" />[///]<lb n="x+4" rend="left-to-right" />[///] the great one of the gods [///]<lb n="x+5" rend="left-to-right" />[///]</ab>
+            <ab n="Frg. b" xml:lang=" en">
+               <pb n="R" />
+               <lb n="x+1" rend="left-to-right" />[///]<lb n="x+2" rend="left-to-right" />[///] of [///]<lb n="x+3" rend="left-to-right" />[///] at once/together; head [///]<lb n="x+4" rend="left-to-right" />[///] his head [///]<lb n="x+5" rend="left-to-right" />[///] <hi rend="red">twice</hi> [///]</ab>
+         </div>
+      </body>
+   </text>
+</TEI>
